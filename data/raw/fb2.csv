@@ -1,0 +1,377 @@
+﻿item,passage,speaker_knowledge,knowledge_cue,critical_q,critical_a
+1,"You and your friend Jonathan are taking a road trip. You began in California, and are now passing through Michigan. It's almost winter, so it's very cold outside - especially for Southern California dwellers like you and Jonathan. You see that you're almost out of gas, so you stop at a gas station in a small town.
+ 
+You fill up the tank, and then the two of you go inside the gas station to buy some water and snacks. When you return to the car and start up the engine, you and Jonathan both notice with some dismay a blinking light, which indicates that the car's heating system is broken. You both bundle up.
+ 
+As you leave the station, Jonathan shivers in his seat.",aware,explicit,Does Jonathan know the heater is broken?,Yes
+1,"You and your friend Jonathan are taking a road trip. You began in California, and are now passing through Michigan. It's almost winter, so it's very cold outside - especially for Southern California dwellers like you and Jonathan. You see that you're almost out of gas, so you stop at a gas station in a small town.
+ 
+You fill up the tank, and then the two of you go inside the gas station to buy some water and snacks. When you return to the car and start up the engine, you and Jonathan notice with some dismay a blinking light, which indicates that the car's heating system is broken. You both bundle up.
+ 
+As you leave the station, Jonathan shivers in his seat.",aware,implicit,Does Jonathan know the heater is broken?,Yes
+1,"You and your friend Jonathan are taking a road trip. You began in California, and are now passing through Michigan. It's almost winter, so it's very cold outside - especially for Southern California dwellers like you and Jonathan. You see that you're almost out of gas, so you stop at a gas station in a small town.
+ 
+While you fill up the tank, Jonathan goes inside to buy some water and snacks. As you're checking the meter, you notice with some dismay a blinking light, which indicates that the car's heating system is broken. You finish filling up the gas and wait for Jonathan, who is still inside and doesn't know about the broken heater.
+ 
+Jonathan returns with some snacks, and you both set off. As you leave the station, he shivers in his seat. ",unaware,explicit,Does Jonathan know the heater is broken?,No
+1,"You and your friend Jonathan are taking a road trip. You began in California, and are now passing through Michigan. It's almost winter, so it's very cold outside - especially for Southern California dwellers like you and Jonathan. You see that you're almost out of gas, so you stop at a gas station in a small town.
+ 
+While you fill up the tank, Jonathan goes inside to buy some water and snacks. As you're checking the meter, you notice with some dismay a blinking light, which indicates that the car's heating system is broken. You finish filling up the gas and wait for Jonathan.
+ 
+Jonathan returns with some snacks, and you both set off. As you leave the station, he shivers in his seat. ",unaware,implicit,Does Jonathan know the heater is broken?,No
+2,"You've been renting a house with your two roommates, Lisa and Brian, for three months now. Things are going well, though both you and Lisa are not very responsible about cleaning; consequently, the house has a tendency to get dirty quickly - unwashed dishes in the sink, cluttered counters, the whole shebang.
+ 
+Even worse, you and Lisa are directly responsible for the latest mess, which is the product of a recent dinner party. Brian's something of a neat freak, so he's pretty anxious about the mess.
+ 
+This morning, during a house meeting with you and Brian, Lisa volunteered to take the lead on cleaning the kitchen when she gets home from work this evening. Brian seems satisfied by this plan.
+ 
+In the afternoon, while Lisa is still at work, you and Brian are standing in the kitchen doorway, gazing in.",aware,explicit,Does Brian know Lisa has already promised to clean the kitchen?,Yes
+2,"You've been renting a house with your two roommates, Lisa and Brian, for three months now. Things are going well, though both you and Lisa are not very responsible about cleaning; consequently, the house has a tendency to get dirty quickly - unwashed dishes in the sink, cluttered counters, the whole shebang.
+ 
+Even worse, you and Lisa are directly responsible for the latest mess, which is the product of a recent dinner party. Brian's something of a neat freak, so he's pretty anxious about the mess.
+ 
+This morning, during a house meeting with you and Brian, Lisa volunteered to take the lead on cleaning the kitchen when she gets home from work this evening.
+ 
+In the afternoon, while Lisa is still at work, you and Brian are standing in the kitchen doorway, gazing in.",aware,implicit,Does Brian know Lisa has already promised to clean the kitchen?,Yes
+2,"You've been renting a house with your two roommates, Lisa and Brian, for three months now. Things are going well, though both you and Lisa are not very responsible about cleaning; consequently, the house has a tendency to get dirty quickly - unwashed dishes in the sink, cluttered counters, the whole shebang.
+ 
+Even worse, you and Lisa are directly responsible for the latest mess, which is the product of a recent dinner party. Brian's something of a neat freak, so he's pretty anxious about the mess.
+ 
+This morning, Lisa volunteered to take the lead on cleaning the kitchen when she gets home from work this evening. Brian was still sleeping, so he's unaware of this plan.
+ 
+In the afternoon, while Lisa is still at work, you and Brian are standing in the kitchen doorway, gazing in.",unaware,explicit,Does Brian know Lisa has already promised to clean the kitchen?,No
+2,"You've been renting a house with your two roommates, Lisa and Brian, for three months now. Things are going well, though both you and Lisa are not very responsible about cleaning; consequently, the house has a tendency to get dirty quickly - unwashed dishes in the sink, cluttered counters, the whole shebang.
+ 
+Even worse, you and Lisa are directly responsible for the latest mess, which is the product of a recent dinner party. Brian's something of a neat freak, so he's pretty anxious about the mess.
+ 
+This morning, Lisa volunteered to take the lead on cleaning the kitchen when she gets home from work this evening.
+ 
+In the afternoon, while Lisa is still at work, you and Brian are standing in the kitchen doorway, gazing in.",unaware,implicit,Does Brian know Lisa has already promised to clean the kitchen?,No
+3,"You accompany your teenage daughter, Sarah, to the doctor so that she can be tested for allergies. She's quite reluctant to go, but you promise her that after the appointment, you can go out to her favorite hamburger joint. The appointment goes well, and is very informative; as it turns out, Sarah does have several major food allergies. The doctor gives you a pamphlet containing more detailed information. Then, as promised, you take Sarah to a nearby diner to buy some hamburgers. You order a hamburger and some fries for yourself, a cheeseburger for Sarah, then sit down.
+ 
+When Sarah sits down, you flip through the pamphlet together; you're both surprised to learn that she's allergic to members of the ""nightshade"" family, which includes eggplant and potatoes. Sarah seems saddened by the news.
+ 
+About five minutes later, your food is served. ",aware,explicit,Does Sarah know she has an allergy to potatoes?,Yes
+3,"You accompany your teenage daughter, Sarah, to the doctor so that she can be tested for allergies. She's quite reluctant to go, but you promise her that after the appointment, you can go out to her favorite hamburger joint. The appointment goes well, and is very informative; as it turns out, Sarah does have several major food allergies. The doctor gives you a pamphlet containing more detailed information. Then, as promised, you take Sarah to a nearby diner to buy some hamburgers. You order a hamburger and some fries for yourself, a cheeseburger for Sarah, then sit down.
+ 
+When Sarah sits down, you flip through the pamphlet together; you're both surprised to learn that she's allergic to members of the ""nightshade"" family, which includes eggplant and potatoes.
+ 
+About five minutes later, your food is served. ",aware,implicit,Does Sarah know she has an allergy to potatoes?,Yes
+3,"You accompany your teenage daughter, Sarah, to the doctor so that she can be tested for allergies. She's quite reluctant to go, but you promise her that after the appointment, you can go out to her favorite hamburger joint. The appointment goes well, and is very informative; as it turns out, Sarah does have several major food allergies. The doctor gives you a pamphlet containing more detailed information. Then, as promised, you take Sarah to a nearby diner to buy some hamburgers. You order a hamburger and some fries for yourself, a cheeseburger for Sarah, then sit down.
+ 
+While Sarah is washing her hands in the restroom, you flip through the pamphlet; you're surprised to learn that she's allergic to members of the ""nightshade"" family, which includes eggplant and potatoes. Sarah returns to the table, unaware that she's allergic to potatoes.
+ 
+About five minutes later, your food is served.",unaware,explicit,Does Sarah know she has an allergy to potatoes?,No
+3,"You accompany your teenage daughter, Sarah, to the doctor so that she can be tested for allergies. She's quite reluctant to go, but you promise her that after the appointment, you can go out to her favorite hamburger joint. The appointment goes well, and is very informative; as it turns out, Sarah does have several major food allergies. The doctor gives you a pamphlet containing more detailed information. Then, as promised, you take Sarah to a nearby diner to buy some hamburgers. You order a hamburger and some fries for yourself, a cheeseburger for Sarah, then sit down.
+ 
+While Sarah is washing her hands in the restroom, you flip through the pamphlet; you're surprised to learn that she's allergic to members of the ""nightshade"" family, which includes eggplant and potatoes. Sarah returns to the table.
+ 
+About five minutes later, your food is served.",unaware,implicit,Does Sarah know she has an allergy to potatoes?,No
+4,"After a long week, you decide to treat yourself to a dinner for one at the fanciest restaurant in town. Just for the occasion, you break out your black and white tuxedo. Your spirits are high, but when you arrive at the restaurant, you're somewhat embarrassed to realize that you're wearing the exact same outfit as the restaurant's waitstaff.
+ 
+While you're waiting in line, you encounter another guest, who initially mistakes you for a waiter. You laugh about the misunderstanding, and then an actual waiter shows you to your table.
+ 
+Later, as you walk to the kitchen to pay your compliments to the chef, you pass by the same guest's table. He is staring down at his meal with irritation. You pass by and he recognizes you as the guest from the line, whom he'd formerly mistaken for a waiter.",aware,explicit,Does he know you are actually not a waiter?,Yes
+4,"After a long week, you decide to treat yourself to a dinner for one at the fanciest restaurant in town. Just for the occasion, you break out your black and white tuxedo. Your spirits are high, but when you arrive at the restaurant, you're somewhat embarrassed to realize that you're wearing the exact same outfit as the restaurant's waitstaff.
+ 
+While you're waiting in line, you encounter another guest, who initially mistakes you for a waiter. You laugh about the misunderstanding, and then an actual waiter shows you to your table.
+ 
+Later, as you walk to the kitchen to pay your compliments to the chef, you pass by the same guest's table. He is staring down at his meal with irritation. You pass by.",aware,implicit,Does he know you are actually not a waiter?,Yes
+4,"After a long week, you decide to treat yourself to a dinner for one at the fanciest restaurant in town. Just for the occasion, you break out your black and white tuxedo. Your spirits are high, but when you arrive at the restaurant, you're somewhat embarrassed to realize that you're wearing the exact same outfit as the restaurant's waitstaff.
+ 
+While you're waiting in line, you encounter another guest, who initially mistakes you for a waiter. You laugh about the misunderstanding, and then an actual waiter shows you to your table.
+ 
+Later, as you walk to the kitchen to pay your compliments to the chef, you pass by another guest's table. He is staring down at his meal with irritation. As you pass by, he looks up at you and catches your eye.",unaware,explicit,Does he know you are actually not a waiter?,No
+4,"After a long week, you decide to treat yourself to a dinner for one at the fanciest restaurant in town. Just for the occasion, you break out your black and white tuxedo. Your spirits are high, but when you arrive at the restaurant, you're somewhat embarrassed to realize that you're wearing the exact same outfit as the restaurant's waitstaff.
+ 
+While you're waiting in line, you encounter another guest, who initially mistakes you for a waiter. You laugh about the misunderstanding, and then an actual waiter shows you to your table.
+ 
+Later, as you walk to the kitchen to pay your compliments to the chef, you pass by another guest's table. He is staring down at his meal with irritation. As you pass by, he looks up at you and catches your eye.",unaware,implicit,Does he know you are actually not a waiter?,No
+5,"After your first year of college, you move back home for the summer. Your parents are glad to have you home, but your dad insists that you do some weekly chores to ""earn your keep"". You'd prefer to just relax, but it does keep you occupied, which isn't all bad.  Besides, the house is in need of some repairs; your parents are both busy people, so some chores have fallen by the wayside while you've been away. Most notably, the lawn has gotten overgrown, and the paint on the backyard fence is beginning to peel. During the first couple of weeks, you mow the lawn, rake the driveway, and water the garden, but you keep putting off painting the fence.
+ 
+One day, your mom decides to take matter into her own hands.
+ 
+With your dad's encouragement, she calls a painting company to come and paint the fence; they schedule a time two days from now. This seems to satisfy your dad.
+ 
+Later in the day, you're reading in the living room. Your dad walks in and peers out the window with a slightly displeased expression on his face.",aware,explicit,Does your dad know someone is coming to paint the fence?,Yes
+5,"After your first year of college, you move back home for the summer. Your parents are glad to have you home, but your dad insists that you do some weekly chores to ""earn your keep"". You'd prefer to just relax, but it does keep you occupied, which isn't all bad.  Besides, the house is in need of some repairs; your parents are both busy people, so some chores have fallen by the wayside while you've been away. Most notably, the lawn has gotten overgrown, and the paint on the backyard fence is beginning to peel. During the first couple of weeks, you mow the lawn, rake the driveway, and water the garden, but you keep putting off painting the fence.
+ 
+One day, your mom decides to take matter into her own hands.
+ 
+With your dad's encouragement, she calls a painting company to come and paint the fence; they schedule a time two days from now.
+ 
+Later in the day, you're reading in the living room. Your dad walks in and peers out the window with a slightly displeased expression on his face.",aware,implicit,Does your dad know someone is coming to paint the fence?,Yes
+5,"After your first year of college, you move back home for the summer. Your parents are glad to have you home, but your dad insists that you do some weekly chores to ""earn your keep"". You'd prefer to just relax, but it does keep you occupied, which isn't all bad.  Besides, the house is in need of some repairs; your parents are both busy people, so some chores have fallen by the wayside while you've been away. Most notably, the lawn has gotten overgrown, and the paint on the backyard fence is beginning to peel. During the first couple of weeks, you mow the lawn, rake the driveway, and water the garden, but you keep putting off painting the fence.
+ 
+One day, your mom decides to take matter into her own hands.
+ 
+While your dad's away at work, she calls a painting company to come and paint the fence; they schedule a time two days from now. Unfortunately, your dad hasn't yet heard about this plan.
+ 
+Later in the day, you're reading in the living room when your dad returns from work. He walks in and peers out the window with a slightly displeased expression on his face.",unaware,explicit,Does your dad know someone is coming to paint the fence?,No
+5,"After your first year of college, you move back home for the summer. Your parents are glad to have you home, but your dad insists that you do some weekly chores to ""earn your keep"". You'd prefer to just relax, but it does keep you occupied, which isn't all bad.  Besides, the house is in need of some repairs; your parents are both busy people, so some chores have fallen by the wayside while you've been away. Most notably, the lawn has gotten overgrown, and the paint on the backyard fence is beginning to peel. During the first couple of weeks, you mow the lawn, rake the driveway, and water the garden, but you keep putting off painting the fence.
+ 
+One day, your mom decides to take matter into her own hands.
+ 
+While your dad's away at work, she calls a painting company to come and paint the fence; they schedule a time two days from now.
+ 
+Later in the day, you're reading in the living room when your dad returns from work. He walks in and peers out the window with a slightly displeased expression on his face.",unaware,implicit,Does your dad know someone is coming to paint the fence?,No
+6,"You and your friend are exhausted and sweaty from playing tennis. After playing, you invite him back to your apartment to hang out.
+ 
+When you return to your apartment, you both see a notice taped to your apartment door: unfortunately, the water in your apartment building will be shut off for the next 24 hours. Your friend seems disconcerted by the news.",aware,explicit,Does your friend know the water isn't working?,Yes
+6,"You and your friend are exhausted and sweaty from playing tennis. After playing, you invite him back to your apartment to hang out.
+ 
+When you return to your apartment, you both see a notice taped to your apartment door: unfortunately, the water in your apartment building will be shut off for the next 24 hours.",aware,implicit,Does your friend know the water isn't working?,Yes
+6,"You and your friend are exhausted and sweaty from playing tennis. After playing, you invite him back to your apartment to hang out.
+ 
+When you return to your apartment, you go to your room, and privately check your email. You see that your landlord has sent you a message: unfortunately, the water in your apartment building will be shut off for the next 24 hours. Your friend, of course, doesn't know about this yet.",unaware,explicit,Does your friend know the water isn't working?,No
+6,"You and your friend are exhausted and sweaty from playing tennis. After playing, you invite him back to your apartment to hang out.
+ 
+When you return to your apartment, you go to your room, and privately check your email. You see that your landlord has sent you a message: unfortunately, the water in your apartment building will be shut off for the next 24 hours.",unaware,implicit,Does your friend know the water isn't working?,No
+7,"After some deliberation, you invite a new acquaintance over for a dinner date. You prepare a feast, which you serve alongside some red wine. There's only a small amount of wine left in the bottle, but you assure your date you have another bottle stashed away, which you can open if she likes this wine.
+ 
+About halfway through dinner, you excuse yourself to go to the bathroom. On the way back, you stop in the kitchen to grab the other bottle of wine. You're surprised and irritated to find that there is no other bottle; you must have been mistaken.
+ 
+Sadly, you call out from the kitchen that the wine is all gone. Your date murmurs something in reply, sounding disappointed.
+ 
+When you return to the dining room, your date sips the last of her glass of wine. ",aware,explicit,Does she know there is no more wine?,Yes
+7,"After some deliberation, you invite a new acquaintance over for a dinner date. You prepare a feast, which you serve alongside some red wine. There's only a small amount of wine left in the bottle, but you assure your date you have another bottle stashed away, which you can open if she likes this wine.
+ 
+About halfway through dinner, you excuse yourself to go to the bathroom. On the way back, you stop in the kitchen to grab the other bottle of wine. You're surprised and irritated to find that there is no other bottle; you must have been mistaken.
+ 
+Sadly, you call out from the kitchen that the wine is all gone.
+ 
+When you return to the dining room, your date sips the last of her glass of wine. ",aware,implicit,Does she know there is no more wine?,Yes
+7,"After some deliberation, you invite a new acquaintance over for a dinner date. You prepare a feast, which you serve alongside some red wine. There's only a small amount of wine left in the bottle, but you assure your date you have another bottle stashed away, which you can open if she likes this wine.
+ 
+About halfway through dinner, you excuse yourself to go to the bathroom. On the way back, you stop in the kitchen to grab the other bottle of wine. You're surprised and irritated to find that there is no other bottle; you must have been mistaken.
+ 
+You walk back towards the dining room, unsure about what to tell your date, who doesn't yet know that there's no more wine.
+ 
+When you return to the dining room, your date sips the last of her glass of wine.",unaware,explicit,Does she know there is no more wine?,No
+7,"After some deliberation, you invite a new acquaintance over for a dinner date. You prepare a feast, which you serve alongside some red wine. There's only a small amount of wine left in the bottle, but you assure your date you have another bottle stashed away, which you can open if she likes this wine.
+ 
+About halfway through dinner, you excuse yourself to go to the bathroom. On the way back, you stop in the kitchen to grab the other bottle of wine. You're surprised and irritated to find that there is no other bottle; you must have been mistaken.
+ 
+You walk back towards the dining room, unsure about what to tell your date.
+ 
+When you return to the dining room, your date sips the last of her glass of wine.",unaware,implicit,Does she know there is no more wine?,No
+8,"You and your friend Rob get along well; your only complaint is that since he doesn't have a car, you almost always have to pick him up and give him rides. Whenever you're both going somewhere, it's generally expected that you'll drive him - but he treats you to coffee sometimes, so it all evens out.
+ 
+One day, after classes get out, you walk together to get some coffee at nearby coffee shop.
+ 
+While you and Rob are sitting talking, you're surprised to see your mechanic at the coffee shop. He walks up and informs you that your car, which you recently took in for a tune-up, will be under repair for at least another week. Rob knows how much you rely on that car, so he understands your frustration.
+ 
+Once the mechanic leaves, you and Rob get to talking. Rob realizes you've both been invited to the same party later on in the week.",aware,explicit,Does Rob know your car is in the shop?,Yes
+8,"You and your friend Rob get along well; your only complaint is that since he doesn't have a car, you almost always have to pick him up and give him rides. Whenever you're both going somewhere, it's generally expected that you'll drive him - but he treats you to coffee sometimes, so it all evens out.
+ 
+One day, after classes get out, you walk together to get some coffee at nearby coffee shop.
+ 
+While you and Rob are sitting talking, you're surprised to see your mechanic at the coffee shop. He walks up and informs you that your car, which you recently took in for a tune-up, will be under repair for at least another week.
+ 
+Once the mechanic leaves, you and Rob get to talking. Rob realizes you've both been invited to the same party later on in the week.",aware,implicit,Does Rob know your car is in the shop?,Yes
+8,"You and your friend Rob get along well; your only complaint is that since he doesn't have a car, you almost always have to pick him up and give him rides. Whenever you're both going somewhere, it's generally expected that you'll drive him - but he treats you to coffee sometimes, so it all evens out.
+ 
+One day, after classes get out, you walk together to get some coffee at a nearby coffee shop.
+ 
+Before you sit down, Rob steps outside to take a phone call. While he's outside, you're surprised to see your mechanic at the coffee shop. He walks up and informs you that your car, which you recently took in for a tune-up, will be under repair for at least another week. You rely on that car, so this is very frustrating.
+ 
+Anyway, Rob finishes his phone call and returns to the table, and you both get to talking. Rob realizes you've both been invited to the same party later on in the week, but missed the conversation with your mechanic about your car still being in the shop.",unaware,explicit,Does Rob know your car is in the shop?,No
+8,"You and your friend Rob get along well; your only complaint is that since he doesn't have a car, you almost always have to pick him up and give him rides. Whenever you're both going somewhere, it's generally expected that you'll drive him - but he treats you to coffee sometimes, so it all evens out.
+ 
+One day, after classes get out, you walk together to get some coffee at a nearby coffee shop.
+ 
+Before you sit down, Rob steps outside to take a phone call. While he's outside, you're surprised to see your mechanic at the coffee shop. He walks up and informs you that your car, which you recently took in for a tune-up, will be under repair for at least another week. You rely on that car, so this is very frustrating.
+ 
+Anyway, Rob finishes his phone call and returns to the table, and you both get to talking. Rob realizes you've both been invited to the same party later on in the week.",unaware,implicit,Does Rob know your car is in the shop?,No
+9,"After a relatively uneventful day, you decide you need to get out and see a movie. You call up your best friend, who agrees to accompany you. 
+
+Later, you arrive at the theater at the same time as your friend. You greet each other, then head towards the pay-stand. As you walk together, you check your pockets; you realize you don't have any cash, and you left your credit card at home. You curse, saying, ""I can't believe I left my wallet at home."" Your friend looks surprised that you forgot your money, since that is very unlike you. 
+
+Then, just as your friend is about to pay, her face suddenly falls. She groans, then turns back to you in disbelief. ",aware,explicit,Does your friend know you forgot your money?,Yes
+9,"After a relatively uneventful day, you decide you need to get out and see a movie. You call up your best friend, who agrees to accompany you. 
+
+Later, you arrive at the theater at the same time as your friend. You greet each other, then head towards the pay-stand. As you walk together, you check your pockets; you realize you don't have any cash, and you left your credit card at home. You curse, saying, ""I can't believe I left my wallet at home.""
+
+Then, just as your friend is about to pay, her face suddenly falls. She groans, then turns back to you in disbelief. ",aware,implicit,Does your friend know you forgot your money?,Yes
+9,"After a relatively uneventful day, you decide you need to get out and see a movie. You call up your best friend, who agrees to accompany you. 
+
+Later, just after you arrive at the theater, you realize you don't have any cash on you, and you left your credit card at home. You curse, saying to yourself, ""I can't believe I left my wallet at home."" 
+
+Your friend shows up just after your realization, greets you, and heads right to the pay-stand, not yet aware that you don't have any money. 
+
+As your friend is about to pay, her face suddenly falls. She groans, then turns back to you sheepishly. ",unaware,explicit,Does your friend know you forgot your money?,No
+9,"After a relatively uneventful day, you decide you need to get out and see a movie. You call up your best friend, who agrees to accompany you. 
+
+Later, just after you arrive at the theater, you realize you don't have any cash on you, and you left your credit card at home. You curse, saying to yourself, ""I can't believe I left my wallet at home."" 
+
+Your friend shows up just after your realization, greets you, and heads right to the pay-stand.
+
+As your friend is about to pay, her face suddenly falls. She groans, then turns back to you sheepishly. ",unaware,implicit,Does your friend know you forgot your money?,No
+10,"The roof of your garage is in bad shape. Fortunately, one of your good friends generously offers to come over and help you fix it up. 
+
+The two of you spend the day toiling under the hot sun, working up a sweat. It takes a few hours, but eventually, the roof starts looking somewhat decent. 
+
+You both go inside the house, where fortunately, the AC is on. Feeling a thirst coming on, you head into the kitchen, closely followed by your friend. You check the refrigerator, and find that there's one beer left. A little guilty, you take it for yourself; your friend watches and shakes his head disapprovingly, seeing that there are no beers left. 
+
+Later, back in the living room, you drain your beer and set it down on the table. Your friend smacks his lips.",aware,explicit,Does your friend know there are no beers left?,Yes
+10,"The roof of your garage is in bad shape. Fortunately, one of your good friends generously offers to come over and help you fix it up. 
+
+The two of you spend the day toiling under the hot sun, working up a sweat. It takes a few hours, but eventually, the roof starts looking somewhat decent. 
+
+You both go inside the house, where fortunately, the AC is on. Feeling a thirst coming on, you head into the kitchen, closely followed by your friend. You check the refrigerator, and find that there's one beer left. A little guilty, you take it for yourself; your friend watches and shakes his head disapprovingly.
+
+Later, back in the living room, you drain your beer and set it down on the table. Your friend smacks his lips.",aware,implicit,Does your friend know there are no beers left?,Yes
+10,"The roof of your garage is in bad shape. Fortunately, one of your good friends generously offers to come over and help you fix it up. 
+
+The two of you spend the day toiling under the hot sun, working up a sweat. It takes a few hours, but eventually, the roof starts looking somewhat decent. 
+
+You both go inside the house, where fortunately, the AC is on. Your friend collapses onto the couch, breathing a sigh of relief. Feeling a thirst coming on, you head into the kitchen and check the refrigerator, and find that there's one beer left. A little guilty, you take it for yourself. 
+
+You return to the living room. Your friend sees you holding the beer, but isn't aware that there are no more left. ",unaware,explicit,Does your friend know there are no beers left?,No
+10,"The roof of your garage is in bad shape. Fortunately, one of your good friends generously offers to come over and help you fix it up. 
+
+The two of you spend the day toiling under the hot sun, working up a sweat. It takes a few hours, but eventually, the roof starts looking somewhat decent. 
+
+You both go inside the house, where fortunately, the AC is on. Your friend collapses onto the couch, breathing a sigh of relief. Feeling a thirst coming on, you head into the kitchen and check the refrigerator, and find that there's one beer left. A little guilty, you take it for yourself. 
+
+You return to the living room. Your friend sees you holding the beer.",unaware,implicit,Does your friend know there are no beers left?,No
+11,"It's Monday evening, which is when you and your parents ordinarily watch your favorite television series. 
+
+You all gather together in your usual spots: you sit in a chair closest to the television, and your parents sit on the couch. But when you turn on the TV, there's a crackling noise from the speakers. After some fiddling around, you all realize that they're broken. 
+
+Still, you decide to watch anyway, using the built-in speakers on the TV. The show starts, but the built-in speakers just don't project at all. 
+
+Your father groans and looks over at you. ",aware,explicit,Does your father know the speakers are broken?,Yes
+11,"It's Monday evening, which is when you and your parents ordinarily watch your favorite television series. 
+
+You all gather together in your usual spots: you sit in a chair closest to the television, and your parents sit on the couch. But when you turn on the TV, there's a crackling noise from the speakers. After some fiddling around, you realize that they're broken. 
+
+Still, you decide to watch anyway, using the built-in speakers on the TV. The show starts, but the built-in speakers just don't project at all. 
+
+Your father groans and looks over at you. ",aware,implicit,Does your father know the speakers are broken?,Yes
+11,"It's Monday evening, which is when you and your parents ordinarily watch your favorite television series. 
+
+Before your parents arrive, you get settled in your usual spot: the chair closest to the television. But when you turn on the TV, there's a crackling noise from the speakers. You realize that they're broken, so you decide to just use the built-in speakers on the TV. 
+
+Later, your parents come into the room and sit on the couch. The show starts, but the built-in speakers just don't project at all. Your parents don't realize that this is the loudest it will get, since the other speakers are broken. 
+
+Your father groans and looks over at you. ",unaware,explicit,Does your father know the speakers are broken?,No
+11,"It's Monday evening, which is when you and your parents ordinarily watch your favorite television series. 
+
+Before your parents arrive, you get settled in your usual spot: the chair closest to the television. But when you turn on the TV, there's a crackling noise from the speakers. You realize that they're broken, so you decide to just use the built-in speakers on the TV. 
+
+Later, your parents come into the room and sit on the couch. The show starts, but the built-in speakers just don't project at all.
+
+Your father groans and looks over at you. ",unaware,implicit,Does your father know the speakers are broken?,No
+12,"You and your friend Claire just got a new apartment in a nice area of town. You're good roommates: you both do your dishes, keep things tidy, and take turns taking out the trash and recycling. 
+
+One day, however, you and Claire both run into your landlord, who gives you some surprising news: the town's recycling services are temporarily suspended. A few days go by, and your recycling bin starts to overflow. It's your turn to empty the bin, but unfortunately, there's nowhere to drop it off. You and Claire both know you'll have to wait to empty it until the services start up again. 
+
+While she's washing the dishes, Claire looks over at the recycling bin and shakes her head.",aware,explicit,Does Claire know the recycling services are suspended?,Yes
+12,"You and your friend Claire just got a new apartment in a nice area of town. You're good roommates: you both do your dishes, keep things tidy, and take turns taking out the trash and recycling. 
+
+One day, however, you and Claire both run into your landlord, who gives you some surprising news: the town's recycling services are temporarily suspended. A few days go by, and your recycling bin starts to overflow. It's your turn to empty the bin, but unfortunately, there's nowhere to drop it off.
+
+While she's washing the dishes, Claire looks over at the recycling bin and shakes her head.",aware,implicit,Does Claire know the recycling services are suspended?,Yes
+12,"You and your friend Claire just got a new apartment in a nice area of town. You're good roommates: you both do your dishes, keep things tidy, and take turns taking out the trash and recycling. 
+
+One day, however, while Claire is away, you run into your landlord, who gives you some surprising news: the town's recycling services are temporarily suspended. You're pretty forgetful though, so it slips your mind when Claire gets home later; thus, she doesn't know that there's nowhere to empty the bin. 
+
+A few days go by, and your recycling bin starts to overflow. It's your turn to empty the bin, but unfortunately, there's nowhere to drop it off. 
+
+While she's washing the dishes, Claire looks over at the recycling bin and shakes her head. ",unaware,explicit,Does Claire know the recycling services are suspended?,No
+12,"You and your friend Claire just got a new apartment in a nice area of town. You're good roommates: you both do your dishes, keep things tidy, and take turns taking out the trash and recycling. 
+
+One day, however, while Claire is away, you run into your landlord, who gives you some surprising news: the town's recycling services are temporarily suspended. You're pretty forgetful though, so it slips your mind when Claire gets home later.
+
+A few days go by, and your recycling bin starts to overflow. It's your turn to empty the bin, but unfortunately, there's nowhere to drop it off. 
+
+While she's washing the dishes, Claire looks over at the recycling bin and shakes her head. ",unaware,implicit,Does Claire know the recycling services are suspended?,No
+13,"After several weeks of looking for work, you finally find a job at a local cafe. You quickly learn the basics: taking orders from customers, how to prepare different drinks, and even which items are the most popular. 
+
+Customers especially love the chocolate croissants, but the baker stops making new ones by noon, so these are often in short supply. 
+
+One afternoon, a familiar-looking customer enters the store. Just as he approaches the counter, you both hear a shout from the back room: ""Hey, we're out of chocolate croissants!"" The customer looks disappointed when he hears this. You exchange pleasantries. He looks up at the menu and his eyes alight on the pastry section. ",aware,explicit,Does the customer know you're out of chocolate croissants?,Yes
+13,"After several weeks of looking for work, you finally find a job at a local cafe. You quickly learn the basics: taking orders from customers, how to prepare different drinks, and even which items are the most popular. 
+
+Customers especially love the chocolate croissants, but the baker stops making new ones by noon, so these are often in short supply. 
+
+One afternoon, a familiar-looking customer enters the store. Just as he approaches the counter, you both hear a shout from the back room: ""Hey, we're out of chocolate croissants!"" You exchange pleasantries. He looks up at the menu and his eyes alight on the pastry section. ",aware,implicit,Does the customer know you're out of chocolate croissants?,Yes
+13,"After several weeks of looking for work, you finally find a job at a local cafe. You quickly learn the basics: taking orders from customers, how to prepare different drinks, and even which items are the most popular. 
+
+Customers especially love the chocolate croissants, but the baker stops making new ones by noon, so these are often in short supply. One afternoon, the cafe runs out especially early, and you hear a shout from the back room: ""Hey, we're out of chocolate croissants!"" 
+
+Soon after, a familiar-looking customer enters the store, unaware that you've just run out of the most popular item. You exchange pleasantries. He looks up at the menu and his eyes alight on the pastry section. ",unaware,explicit,Does the customer know you're out of chocolate croissants?,No
+13,"After several weeks of looking for work, you finally find a job at a local cafe. You quickly learn the basics: taking orders from customers, how to prepare different drinks, and even which items are the most popular. 
+
+Customers especially love the chocolate croissants, but the baker stops making new ones by noon, so these are often in short supply. One afternoon, the cafe runs out especially early, and you hear a shout from the back room: ""Hey, we're out of chocolate croissants!""
+
+Soon after, a familiar-looking customer enters the store. You exchange pleasantries. He looks up at the menu and his eyes alight on the pastry section. ",unaware,implicit,Does the customer know you're out of chocolate croissants?,No
+14,"In college, you decide to take a particularly challenging mathematics course. Many of the other students struggle with the homework, but you find that you can usually get it, as long as you work hard at it. 
+
+Harold, one of the other students, consistently struggles with understanding the concepts. You feel bad, so you often help him with his homework in the morning before class. 
+
+One night, though, you are completely lost. None of the concepts make sense, and you don't manage to answer a single homework problem. You text a couple of your friends, including Harold, that you are having a really hard time and won't be able to complete the work. 
+
+The next day, Harold approaches you before class. He knows that you weren't able to finish the homework. He pulls out a piece of paper with some half-hearted scribbles on it, but it's clear he didn't get very far. ",aware,explicit,Does Harold know you weren't able to finish the homework?,Yes
+14,"In college, you decide to take a particularly challenging mathematics course. Many of the other students struggle with the homework, but you find that you can usually get it, as long as you work hard at it. 
+
+Harold, one of the other students, consistently struggles with understanding the concepts. You feel bad, so you often help him with his homework in the morning before class. 
+
+One night, though, you are completely lost. None of the concepts make sense, and you don't manage to answer a single homework problem. You text a couple of your friends, including Harold, that you are having a really hard time and won't be able to complete the work. 
+
+The next day, Harold approaches you before class. He pulls out a piece of paper with some half-hearted scribbles on it, but it's clear he didn't get very far. ",aware,implicit,Does Harold know you weren't able to finish the homework?,Yes
+14,"In college, you decide to take a particularly challenging mathematics course. Many of the other students struggle with the homework, but you find that you can usually get it, as long as you work hard at it. 
+
+Harold, one of the other students, consistently struggles with understanding the concepts. You feel bad, so you often help him with his homework in the morning before class. 
+
+One night, though, you are completely lost. None of the concepts make sense, and you don't manage to answer a single homework problem. 
+
+The next day, Harold approaches you before class. He doesn't know that you struggled with the homework, assuming that, as usual, you completed all of it. He pulls out a piece of paper with some half-hearted scribbles on it, but it's clear he didn't get very far. ",unaware,explicit,Does Harold know you weren't able to finish the homework?,No
+14,"In college, you decide to take a particularly challenging mathematics course. Many of the other students struggle with the homework, but you find that you can usually get it, as long as you work hard at it. 
+
+Harold, one of the other students, consistently struggles with understanding the concepts. You feel bad, so you often help him with his homework in the morning before class. 
+
+One night, though, you are completely lost. None of the concepts make sense, and you don't manage to answer a single homework problem. 
+
+The next day, Harold approaches you before class. He pulls out a piece of paper with some half-hearted scribbles on it, but it's clear he didn't get very far. ",unaware,implicit,Does Harold know you weren't able to finish the homework?,No
+15,"Your spouse, Terry, has been very busy recently with extra long days at work, coming home late in the evening. 
+
+As a consequence, laundry has started to pile up, which Terry doesn't really have the time to do. One evening, after Terry has returned home, you decide it's time to make a dent in some of the laundry. But when you try to turn on the washing machine, you realize that it is broken. With Terry watching, you make an appointment for someone to come fix the machine. 
+
+Terry knows that you made an appointment to fix the broken washing machine, and seems satisfied. The laundry hamper is growing ominously large at this point.  ",aware,explicit,Does Terry know the washing machine is broken?,Yes
+15,"Your spouse, Terry, has been very busy recently with extra long days at work, coming home late in the evening. 
+
+As a consequence, laundry has started to pile up, which Terry doesn't really have the time to do. One evening, after Terry has returned home, you decide it's time to make a dent in some of the laundry. But when you try to turn on the washing machine, you realize that it is broken. With Terry watching, you make an appointment for someone to come fix the machine. 
+
+The laundry hamper is growing ominously large at this point.  ",aware,implicit,Does Terry know the washing machine is broken?,Yes
+15,"Your spouse, Terry, has been very busy recently with extra long days at work, coming home late in the evening. 
+
+As a consequence, laundry has started to pile up, which Terry doesn't really have the time to do. One day, while Terry is at work, you decide it's time to make a dent in some of the laundry. But when you try to turn on the washing machine, you realize that it is broken. You make an appointment for someone to come fix the machine. 
+
+Soon after, Terry returns home exhausted, and also not yet realizing that the washing machine is broken. The laundry hamper is growing ominously large at this point. ",unaware,explicit,Does Terry know the washing machine is broken?,No
+15,"Your spouse, Terry, has been very busy recently with extra long days at work, coming home late in the evening. 
+
+As a consequence, laundry has started to pile up, which Terry doesn't really have the time to do. One day, while Terry is at work, you decide it's time to make a dent in some of the laundry. But when you try to turn on the washing machine, you realize that it is broken. You make an appointment for someone to come fix the machine. 
+
+Soon after, Terry returns home exhausted. The laundry hamper is growing ominously large at this point. ",unaware,implicit,Does Terry know the washing machine is broken?,No
+16,"You and your friend Paul are moving into a new apartment. There's a ton of stuff to unload: pots and pans, furniture, miscellaneous belongings, and more. Most of it is light, but some of the furniture is quite heavy. For the heavy stuff, you agree to help each other out. 
+
+At one point, while Paul is helping you carry your mattress into your bedroom, you suddenly feel a jolt of sharp pain in your back. You inadvertently gasp and clutch your back. Once you recover, you decide you should take it easy the rest of the day and not pick up any more heavy furniture. Knowing you are hurt, Paul finishes pushing the mattress into the room. 
+
+The two of you go back outside, and see Paul's gargantuan desk sitting in the driveway. Paul looks at the desk doubtfully. ",aware,explicit,Does Paul know you hurt your back?,Yes
+16,"You and your friend Paul are moving into a new apartment. There's a ton of stuff to unload: pots and pans, furniture, miscellaneous belongings, and more. Most of it is light, but some of the furniture is quite heavy. For the heavy stuff, you agree to help each other out. 
+
+At one point, while Paul is helping you carry your mattress into your bedroom, you suddenly feel a jolt of sharp pain in your back. You inadvertently gasp and clutch your back. Once you recover, you decide you should take it easy the rest of the day and not pick up any more heavy furniture. Paul finishes pushing the mattress into the room. 
+
+The two of you go back outside, and see Paul's gargantuan desk sitting in the driveway. Paul looks at the desk doubtfully. ",aware,implicit,Does Paul know you hurt your back?,Yes
+16,"You and your friend Paul are moving into a new apartment. There's a ton of stuff to unload: pots and pans, furniture, miscellaneous belongings, and more. Most of it is light, but some of the furniture is quite heavy. For the heavy stuff, you agree to help each other out. 
+
+At one point, while Paul is still outside and you are carrying your mattress into your room, you suddenly feel a jolt of sharp pain in your back. You inadvertently gasp and clutch your back. Once you recover, you decide you should take it easy the rest of the day and not pick up any more heavy furniture. Paul, however, didn't see what happened, so he doesn't know that you are hurt. 
+
+When you go back outside, you see that Paul is still out front, looking at his gargantuan desk. ",unaware,explicit,Does Paul know you hurt your back?,No
+16,"You and your friend Paul are moving into a new apartment. There's a ton of stuff to unload: pots and pans, furniture, miscellaneous belongings, and more. Most of it is light, but some of the furniture is quite heavy. For the heavy stuff, you agree to help each other out. 
+
+At one point, while Paul is still outside and you are carrying your mattress into your room, you suddenly feel a jolt of sharp pain in your back. You inadvertently gasp and clutch your back. Once you recover, you decide you should take it easy the rest of the day and not pick up any more heavy furniture.
+
+When you go back outside, you see that Paul is still out front, looking at his gargantuan desk. ",unaware,implicit,Does Paul know you hurt your back?,No
