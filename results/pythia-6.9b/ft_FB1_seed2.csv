@@ -1,0 +1,705 @@
+target,group,item_id,condition,lp_correct,lp_incorrect,log_odds,fold,source,seed,model
+FB2,fb2_1,fb2_1_aware_explicit,aware,-1.6515045166015625,-2.4015045166015625,0.75,,FB1,2,EleutherAI/pythia-6.9b
+FB2,fb2_1,fb2_1_aware_implicit,aware,-1.967769980430603,-2.2177700996398926,0.25000011920928955,,FB1,2,EleutherAI/pythia-6.9b
+FB2,fb2_1,fb2_1_unaware_explicit,unaware,-1.7607744932174683,-1.5107744932174683,-0.25,,FB1,2,EleutherAI/pythia-6.9b
+FB2,fb2_1,fb2_1_unaware_implicit,unaware,-1.6127991676330566,-1.5502991676330566,-0.0625,,FB1,2,EleutherAI/pythia-6.9b
+FB2,fb2_2,fb2_2_aware_explicit,aware,-1.9005651473999023,-2.5255651473999023,0.625,,FB1,2,EleutherAI/pythia-6.9b
+FB2,fb2_2,fb2_2_aware_implicit,aware,-2.01954984664917,-2.45704984664917,0.4375,,FB1,2,EleutherAI/pythia-6.9b
+FB2,fb2_2,fb2_2_unaware_explicit,unaware,-2.2202351093292236,-1.6577351093292236,-0.5625,,FB1,2,EleutherAI/pythia-6.9b
+FB2,fb2_2,fb2_2_unaware_implicit,unaware,-2.1367175579071045,-1.6367175579071045,-0.5,,FB1,2,EleutherAI/pythia-6.9b
+FB2,fb2_3,fb2_3_aware_explicit,aware,-2.4306516647338867,-2.8681516647338867,0.4375,,FB1,2,EleutherAI/pythia-6.9b
+FB2,fb2_3,fb2_3_aware_implicit,aware,-2.4267165660858154,-2.5517165660858154,0.125,,FB1,2,EleutherAI/pythia-6.9b
+FB2,fb2_3,fb2_3_unaware_explicit,unaware,-2.5054361820220947,-2.4429361820220947,-0.0625,,FB1,2,EleutherAI/pythia-6.9b
+FB2,fb2_3,fb2_3_unaware_implicit,unaware,-2.8588526248931885,-2.6713526248931885,-0.1875,,FB1,2,EleutherAI/pythia-6.9b
+FB2,fb2_4,fb2_4_aware_explicit,aware,-1.6442737579345703,-2.0817737579345703,0.4375,,FB1,2,EleutherAI/pythia-6.9b
+FB2,fb2_4,fb2_4_aware_implicit,aware,-2.2951607704162598,-2.3576607704162598,0.0625,,FB1,2,EleutherAI/pythia-6.9b
+FB2,fb2_4,fb2_4_unaware_explicit,unaware,-2.29003643989563,-2.16503643989563,-0.125,,FB1,2,EleutherAI/pythia-6.9b
+FB2,fb2_4,fb2_4_unaware_implicit,unaware,-2.29003643989563,-2.16503643989563,-0.125,,FB1,2,EleutherAI/pythia-6.9b
+FB2,fb2_5,fb2_5_aware_explicit,aware,-2.1269068717956543,-2.1269068717956543,0.0,,FB1,2,EleutherAI/pythia-6.9b
+FB2,fb2_5,fb2_5_aware_implicit,aware,-1.8602712154388428,-1.9852712154388428,0.125,,FB1,2,EleutherAI/pythia-6.9b
+FB2,fb2_5,fb2_5_unaware_explicit,unaware,-2.3138389587402344,-2.3138389587402344,0.0,,FB1,2,EleutherAI/pythia-6.9b
+FB2,fb2_5,fb2_5_unaware_implicit,unaware,-2.242403507232666,-1.804903507232666,-0.4375,,FB1,2,EleutherAI/pythia-6.9b
+FB2,fb2_6,fb2_6_aware_explicit,aware,-2.562528610229492,-2.687528610229492,0.125,,FB1,2,EleutherAI/pythia-6.9b
+FB2,fb2_6,fb2_6_aware_implicit,aware,-2.102573871612549,-2.227573871612549,0.125,,FB1,2,EleutherAI/pythia-6.9b
+FB2,fb2_6,fb2_6_unaware_explicit,unaware,-1.7286332845687866,-2.353633403778076,0.6250001192092896,,FB1,2,EleutherAI/pythia-6.9b
+FB2,fb2_6,fb2_6_unaware_implicit,unaware,-1.8875612020492554,-2.512561321258545,0.6250001192092896,,FB1,2,EleutherAI/pythia-6.9b
+FB2,fb2_7,fb2_7_aware_explicit,aware,-2.0185608863830566,-2.1435608863830566,0.125,,FB1,2,EleutherAI/pythia-6.9b
+FB2,fb2_7,fb2_7_aware_implicit,aware,-2.013242721557617,-1.7632428407669067,-0.24999988079071045,,FB1,2,EleutherAI/pythia-6.9b
+FB2,fb2_7,fb2_7_unaware_explicit,unaware,-2.020228862762451,-2.270228862762451,0.25,,FB1,2,EleutherAI/pythia-6.9b
+FB2,fb2_7,fb2_7_unaware_implicit,unaware,-2.1563196182250977,-2.4063196182250977,0.25,,FB1,2,EleutherAI/pythia-6.9b
+FB2,fb2_8,fb2_8_aware_explicit,aware,-2.200328826904297,-2.512828826904297,0.3125,,FB1,2,EleutherAI/pythia-6.9b
+FB2,fb2_8,fb2_8_aware_implicit,aware,-1.4790712594985962,-2.1040711402893066,0.6249998807907104,,FB1,2,EleutherAI/pythia-6.9b
+FB2,fb2_8,fb2_8_unaware_explicit,unaware,-1.8847182989120483,-1.3222182989120483,-0.5625,,FB1,2,EleutherAI/pythia-6.9b
+FB2,fb2_8,fb2_8_unaware_implicit,unaware,-1.829782485961914,-1.392282485961914,-0.4375,,FB1,2,EleutherAI/pythia-6.9b
+FB2,fb2_9,fb2_9_aware_explicit,aware,-2.6213979721069336,-2.8713979721069336,0.25,,FB1,2,EleutherAI/pythia-6.9b
+FB2,fb2_9,fb2_9_aware_implicit,aware,-2.7124626636505127,-2.9624626636505127,0.25,,FB1,2,EleutherAI/pythia-6.9b
+FB2,fb2_9,fb2_9_unaware_explicit,unaware,-2.4409372806549072,-2.3159372806549072,-0.125,,FB1,2,EleutherAI/pythia-6.9b
+FB2,fb2_9,fb2_9_unaware_implicit,unaware,-2.7268500328063965,-2.6643500328063965,-0.0625,,FB1,2,EleutherAI/pythia-6.9b
+FB2,fb2_10,fb2_10_aware_explicit,aware,-2.379067897796631,-2.316567897796631,-0.0625,,FB1,2,EleutherAI/pythia-6.9b
+FB2,fb2_10,fb2_10_aware_implicit,aware,-2.1457173824310303,-2.1457173824310303,0.0,,FB1,2,EleutherAI/pythia-6.9b
+FB2,fb2_10,fb2_10_unaware_explicit,unaware,-1.7979907989501953,-2.5479907989501953,0.75,,FB1,2,EleutherAI/pythia-6.9b
+FB2,fb2_10,fb2_10_unaware_implicit,unaware,-2.0049266815185547,-2.4424266815185547,0.4375,,FB1,2,EleutherAI/pythia-6.9b
+FB2,fb2_11,fb2_11_aware_explicit,aware,-2.456153631210327,-2.831153631210327,0.375,,FB1,2,EleutherAI/pythia-6.9b
+FB2,fb2_11,fb2_11_aware_implicit,aware,-2.236685276031494,-2.549185276031494,0.3125,,FB1,2,EleutherAI/pythia-6.9b
+FB2,fb2_11,fb2_11_unaware_explicit,unaware,-2.8857593536376953,-2.6982593536376953,-0.1875,,FB1,2,EleutherAI/pythia-6.9b
+FB2,fb2_11,fb2_11_unaware_implicit,unaware,-2.8115930557250977,-2.8115930557250977,0.0,,FB1,2,EleutherAI/pythia-6.9b
+FB2,fb2_12,fb2_12_aware_explicit,aware,-1.9054579734802246,-2.4679579734802246,0.5625,,FB1,2,EleutherAI/pythia-6.9b
+FB2,fb2_12,fb2_12_aware_implicit,aware,-2.2535486221313477,-2.4410486221313477,0.1875,,FB1,2,EleutherAI/pythia-6.9b
+FB2,fb2_12,fb2_12_unaware_explicit,unaware,-2.263974666595459,-2.076474666595459,-0.1875,,FB1,2,EleutherAI/pythia-6.9b
+FB2,fb2_12,fb2_12_unaware_implicit,unaware,-2.1851844787597656,-2.1226844787597656,-0.0625,,FB1,2,EleutherAI/pythia-6.9b
+FB2,fb2_13,fb2_13_aware_explicit,aware,-2.2864556312561035,-1.848955750465393,-0.43749988079071045,,FB1,2,EleutherAI/pythia-6.9b
+FB2,fb2_13,fb2_13_aware_implicit,aware,-2.0186681747436523,-1.643668293952942,-0.37499988079071045,,FB1,2,EleutherAI/pythia-6.9b
+FB2,fb2_13,fb2_13_unaware_explicit,unaware,-1.7497059106826782,-2.1247057914733887,0.37499988079071045,,FB1,2,EleutherAI/pythia-6.9b
+FB2,fb2_13,fb2_13_unaware_implicit,unaware,-1.986138105392456,-2.111138105392456,0.125,,FB1,2,EleutherAI/pythia-6.9b
+FB2,fb2_14,fb2_14_aware_explicit,aware,-1.3028655052185059,-1.8028655052185059,0.5,,FB1,2,EleutherAI/pythia-6.9b
+FB2,fb2_14,fb2_14_aware_implicit,aware,-1.60202956199646,-1.85202956199646,0.25,,FB1,2,EleutherAI/pythia-6.9b
+FB2,fb2_14,fb2_14_unaware_explicit,unaware,-1.5928664207458496,-1.5303664207458496,-0.0625,,FB1,2,EleutherAI/pythia-6.9b
+FB2,fb2_14,fb2_14_unaware_implicit,unaware,-1.7333085536956787,-1.6708085536956787,-0.0625,,FB1,2,EleutherAI/pythia-6.9b
+FB2,fb2_15,fb2_15_aware_explicit,aware,-1.8733588457107544,-2.248358726501465,0.37499988079071045,,FB1,2,EleutherAI/pythia-6.9b
+FB2,fb2_15,fb2_15_aware_implicit,aware,-1.8389068841934204,-1.8389068841934204,0.0,,FB1,2,EleutherAI/pythia-6.9b
+FB2,fb2_15,fb2_15_unaware_explicit,unaware,-2.0742201805114746,-1.8867201805114746,-0.1875,,FB1,2,EleutherAI/pythia-6.9b
+FB2,fb2_15,fb2_15_unaware_implicit,unaware,-1.8884174823760986,-1.5759174823760986,-0.3125,,FB1,2,EleutherAI/pythia-6.9b
+FB2,fb2_16,fb2_16_aware_explicit,aware,-2.507584810256958,-2.257584810256958,-0.25,,FB1,2,EleutherAI/pythia-6.9b
+FB2,fb2_16,fb2_16_aware_implicit,aware,-2.5701849460601807,-2.3201849460601807,-0.25,,FB1,2,EleutherAI/pythia-6.9b
+FB2,fb2_16,fb2_16_unaware_explicit,unaware,-2.113999843597412,-2.363999843597412,0.25,,FB1,2,EleutherAI/pythia-6.9b
+FB2,fb2_16,fb2_16_unaware_implicit,unaware,-2.2660419940948486,-2.5785419940948486,0.3125,,FB1,2,EleutherAI/pythia-6.9b
+IR,ir_1,ir_1_aware_explicit,aware,-3.278986692428589,-3.653986692428589,0.375,,FB1,2,EleutherAI/pythia-6.9b
+IR,ir_1,ir_1_aware_implicit,aware,-3.8550302982330322,-3.8550302982330322,0.0,,FB1,2,EleutherAI/pythia-6.9b
+IR,ir_1,ir_1_unaware_explicit,unaware,-3.3392865657806396,-3.0892865657806396,-0.25,,FB1,2,EleutherAI/pythia-6.9b
+IR,ir_1,ir_1_unaware_implicit,unaware,-3.393674373626709,-3.143674373626709,-0.25,,FB1,2,EleutherAI/pythia-6.9b
+IR,ir_2,ir_2_aware_explicit,aware,-3.0573620796203613,-2.9948620796203613,-0.0625,,FB1,2,EleutherAI/pythia-6.9b
+IR,ir_2,ir_2_aware_implicit,aware,-2.790165901184082,-2.852665901184082,0.0625,,FB1,2,EleutherAI/pythia-6.9b
+IR,ir_2,ir_2_unaware_explicit,unaware,-3.0071375370025635,-3.0071375370025635,0.0,,FB1,2,EleutherAI/pythia-6.9b
+IR,ir_2,ir_2_unaware_implicit,unaware,-2.6624464988708496,-2.8499464988708496,0.1875,,FB1,2,EleutherAI/pythia-6.9b
+IR,ir_3,ir_3_aware_explicit,aware,-3.1918282508850098,-3.3793282508850098,0.1875,,FB1,2,EleutherAI/pythia-6.9b
+IR,ir_3,ir_3_aware_implicit,aware,-2.823958396911621,-3.448958396911621,0.625,,FB1,2,EleutherAI/pythia-6.9b
+IR,ir_3,ir_3_unaware_explicit,unaware,-3.203481912612915,-2.765981912612915,-0.4375,,FB1,2,EleutherAI/pythia-6.9b
+IR,ir_3,ir_3_unaware_implicit,unaware,-2.6576123237609863,-2.4076123237609863,-0.25,,FB1,2,EleutherAI/pythia-6.9b
+IR,ir_4,ir_4_aware_explicit,aware,-3.312044382095337,-2.937044382095337,-0.375,,FB1,2,EleutherAI/pythia-6.9b
+IR,ir_4,ir_4_aware_implicit,aware,-3.4294590950012207,-3.3669590950012207,-0.0625,,FB1,2,EleutherAI/pythia-6.9b
+IR,ir_4,ir_4_unaware_explicit,unaware,-3.0602364540100098,-3.5602364540100098,0.5,,FB1,2,EleutherAI/pythia-6.9b
+IR,ir_4,ir_4_unaware_implicit,unaware,-3.19230318069458,-2.94230318069458,-0.25,,FB1,2,EleutherAI/pythia-6.9b
+IR,ir_5,ir_5_aware_explicit,aware,-3.4336514472961426,-2.9336514472961426,-0.5,,FB1,2,EleutherAI/pythia-6.9b
+IR,ir_5,ir_5_aware_implicit,aware,-2.8455610275268555,-2.4705610275268555,-0.375,,FB1,2,EleutherAI/pythia-6.9b
+IR,ir_5,ir_5_unaware_explicit,unaware,-2.6305603981018066,-3.0680603981018066,0.4375,,FB1,2,EleutherAI/pythia-6.9b
+IR,ir_5,ir_5_unaware_implicit,unaware,-2.5160012245178223,-2.8910012245178223,0.375,,FB1,2,EleutherAI/pythia-6.9b
+IR,ir_6,ir_6_aware_explicit,aware,-2.101335048675537,-2.726335048675537,0.625,,FB1,2,EleutherAI/pythia-6.9b
+IR,ir_6,ir_6_aware_implicit,aware,-1.8311055898666382,-2.4561057090759277,0.6250001192092896,,FB1,2,EleutherAI/pythia-6.9b
+IR,ir_6,ir_6_unaware_explicit,unaware,-2.743114709854126,-2.055614709854126,-0.6875,,FB1,2,EleutherAI/pythia-6.9b
+IR,ir_6,ir_6_unaware_implicit,unaware,-2.6121487617492676,-2.1746487617492676,-0.4375,,FB1,2,EleutherAI/pythia-6.9b
+IR,ir_7,ir_7_aware_explicit,aware,-2.907442331314087,-2.844942331314087,-0.0625,,FB1,2,EleutherAI/pythia-6.9b
+IR,ir_7,ir_7_aware_implicit,aware,-2.502971887588501,-2.690471887588501,0.1875,,FB1,2,EleutherAI/pythia-6.9b
+IR,ir_7,ir_7_unaware_explicit,unaware,-2.9112370014190674,-2.5987370014190674,-0.3125,,FB1,2,EleutherAI/pythia-6.9b
+IR,ir_7,ir_7_unaware_implicit,unaware,-2.8590283393859863,-2.6090283393859863,-0.25,,FB1,2,EleutherAI/pythia-6.9b
+IR,ir_8,ir_8_aware_explicit,aware,-2.2408370971679688,-2.6783370971679688,0.4375,,FB1,2,EleutherAI/pythia-6.9b
+IR,ir_8,ir_8_aware_implicit,aware,-2.975343704223633,-3.537843704223633,0.5625,,FB1,2,EleutherAI/pythia-6.9b
+IR,ir_8,ir_8_unaware_explicit,unaware,-2.834726572036743,-2.584726572036743,-0.25,,FB1,2,EleutherAI/pythia-6.9b
+IR,ir_8,ir_8_unaware_implicit,unaware,-3.5033442974090576,-3.1908442974090576,-0.3125,,FB1,2,EleutherAI/pythia-6.9b
+IR,ir_9,ir_9_aware_explicit,aware,-2.819587230682373,-2.882087230682373,0.0625,,FB1,2,EleutherAI/pythia-6.9b
+IR,ir_9,ir_9_aware_implicit,aware,-2.567469358444214,-3.067469358444214,0.5,,FB1,2,EleutherAI/pythia-6.9b
+IR,ir_9,ir_9_unaware_explicit,unaware,-2.619843006134033,-2.244843006134033,-0.375,,FB1,2,EleutherAI/pythia-6.9b
+IR,ir_9,ir_9_unaware_implicit,unaware,-2.5844945907592773,-2.3969945907592773,-0.1875,,FB1,2,EleutherAI/pythia-6.9b
+IR,ir_10,ir_10_aware_explicit,aware,-2.3004190921783447,-2.4254190921783447,0.125,,FB1,2,EleutherAI/pythia-6.9b
+IR,ir_10,ir_10_aware_implicit,aware,-1.978893518447876,-2.353893518447876,0.375,,FB1,2,EleutherAI/pythia-6.9b
+IR,ir_10,ir_10_unaware_explicit,unaware,-2.1580307483673096,-2.1580307483673096,0.0,,FB1,2,EleutherAI/pythia-6.9b
+IR,ir_10,ir_10_unaware_implicit,unaware,-2.6290364265441895,-2.0665364265441895,-0.5625,,FB1,2,EleutherAI/pythia-6.9b
+IR,ir_11,ir_11_aware_explicit,aware,-2.6774168014526367,-2.5524168014526367,-0.125,,FB1,2,EleutherAI/pythia-6.9b
+IR,ir_11,ir_11_aware_implicit,aware,-2.6372437477111816,-2.7622437477111816,0.125,,FB1,2,EleutherAI/pythia-6.9b
+IR,ir_11,ir_11_unaware_explicit,unaware,-2.723255157470703,-2.723255157470703,0.0,,FB1,2,EleutherAI/pythia-6.9b
+IR,ir_11,ir_11_unaware_implicit,unaware,-2.9086766242980957,-2.6586766242980957,-0.25,,FB1,2,EleutherAI/pythia-6.9b
+IR,ir_12,ir_12_aware_explicit,aware,-2.777407169342041,-2.402407169342041,-0.375,,FB1,2,EleutherAI/pythia-6.9b
+IR,ir_12,ir_12_aware_implicit,aware,-2.852832317352295,-2.477832317352295,-0.375,,FB1,2,EleutherAI/pythia-6.9b
+IR,ir_12,ir_12_unaware_explicit,unaware,-2.6074059009552,-2.6699059009552,0.0625,,FB1,2,EleutherAI/pythia-6.9b
+IR,ir_12,ir_12_unaware_implicit,unaware,-2.932936191558838,-2.870436191558838,-0.0625,,FB1,2,EleutherAI/pythia-6.9b
+IR,ir_13,ir_13_aware_explicit,aware,-2.608328342437744,-2.358328342437744,-0.25,,FB1,2,EleutherAI/pythia-6.9b
+IR,ir_13,ir_13_aware_implicit,aware,-2.3868696689605713,-2.4493696689605713,0.0625,,FB1,2,EleutherAI/pythia-6.9b
+IR,ir_13,ir_13_unaware_explicit,unaware,-2.4133260250091553,-2.4758260250091553,0.0625,,FB1,2,EleutherAI/pythia-6.9b
+IR,ir_13,ir_13_unaware_implicit,unaware,-2.3269708156585693,-2.4519708156585693,0.125,,FB1,2,EleutherAI/pythia-6.9b
+IR,ir_14,ir_14_aware_explicit,aware,-2.0070338249206543,-2.1320338249206543,0.125,,FB1,2,EleutherAI/pythia-6.9b
+IR,ir_14,ir_14_aware_implicit,aware,-2.0402448177337646,-2.2277448177337646,0.1875,,FB1,2,EleutherAI/pythia-6.9b
+IR,ir_14,ir_14_unaware_explicit,unaware,-2.0288214683532715,-1.9038214683532715,-0.125,,FB1,2,EleutherAI/pythia-6.9b
+IR,ir_14,ir_14_unaware_implicit,unaware,-2.4188482761383057,-2.0438482761383057,-0.375,,FB1,2,EleutherAI/pythia-6.9b
+IR,ir_15,ir_15_aware_explicit,aware,-2.287899971008301,-2.287899971008301,0.0,,FB1,2,EleutherAI/pythia-6.9b
+IR,ir_15,ir_15_aware_implicit,aware,-2.3309240341186523,-2.5809240341186523,0.25,,FB1,2,EleutherAI/pythia-6.9b
+IR,ir_15,ir_15_unaware_explicit,unaware,-1.9343376159667969,-2.184337615966797,0.25,,FB1,2,EleutherAI/pythia-6.9b
+IR,ir_15,ir_15_unaware_implicit,unaware,-1.9575254917144775,-2.2700254917144775,0.3125,,FB1,2,EleutherAI/pythia-6.9b
+IR,ir_16,ir_16_aware_explicit,aware,-2.378688097000122,-2.441188097000122,0.0625,,FB1,2,EleutherAI/pythia-6.9b
+IR,ir_16,ir_16_aware_implicit,aware,-2.3974056243896484,-2.3349056243896484,-0.0625,,FB1,2,EleutherAI/pythia-6.9b
+IR,ir_16,ir_16_unaware_explicit,unaware,-2.4356327056884766,-2.5606327056884766,0.125,,FB1,2,EleutherAI/pythia-6.9b
+IR,ir_16,ir_16_unaware_implicit,unaware,-2.6020753383636475,-2.5395753383636475,-0.0625,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_10,fbattn_10_fb_1_e_e_q1,q1,-0.008227776736021042,-7.815408706665039,7.807180929929018,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_10,fbattn_10_fb_1_e_e_q2,q2,-3.903578042984009,-0.03485903888940811,-3.8687190040946007,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_10,fbattn_10_fb_1_e_e_q3,q3,-4.818258762359619,-4.193258762359619,-0.625,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_10,fbattn_10_fb_1_e_e_q4,q4,-4.022694110870361,-4.460194110870361,0.4375,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_10,fbattn_10_fb_1_e_s_q1,q1,-0.010853054001927376,-7.254422187805176,7.243569133803248,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_10,fbattn_10_fb_1_e_s_q2,q2,-2.947542190551758,-0.07913538813591003,-2.868406802415848,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_10,fbattn_10_fb_1_e_s_q3,q3,-4.4009246826171875,-3.9009249210357666,-0.4999997615814209,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_10,fbattn_10_fb_1_e_s_q4,q4,-3.8702991008758545,-4.370299339294434,0.5000002384185791,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_10,fbattn_10_fb_1_s_e_q1,q1,-0.007730660028755665,-6.691306114196777,6.683575454168022,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_10,fbattn_10_fb_1_s_e_q2,q2,-2.482923746109009,-0.112394317984581,-2.370529428124428,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_10,fbattn_10_fb_1_s_e_q3,q3,-5.146389961242676,-4.208889961242676,-0.9375,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_10,fbattn_10_fb_1_s_e_q4,q4,-4.013385772705078,-4.513385772705078,0.5,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_10,fbattn_10_fb_1_s_s_q1,q1,-0.007261576130986214,-8.06658935546875,8.059327779337764,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_10,fbattn_10_fb_1_s_s_q2,q2,-3.070848226547241,-0.07459279894828796,-2.9962554275989532,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_10,fbattn_10_fb_1_s_s_q3,q3,-5.088860511779785,-3.338860273361206,-1.750000238418579,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_10,fbattn_10_fb_1_s_s_q4,q4,-3.2532827854156494,-4.31578254699707,1.062499761581421,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_10,fbattn_10_tb_1_e_e_q1,q1,-2.938119888305664,-0.059284988790750504,-2.8788348995149136,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_10,fbattn_10_tb_1_e_e_q2,q2,-0.0011154150124639273,-9.195998191833496,9.194882776821032,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_10,fbattn_10_tb_1_e_e_q3,q3,-5.246506690979004,-5.434006690979004,0.1875,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_10,fbattn_10_tb_1_e_e_q4,q4,-5.877345085144043,-5.189845085144043,-0.6875,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_10,fbattn_10_tb_1_e_s_q1,q1,-3.177860736846924,-0.04782848805189133,-3.1300322487950325,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_10,fbattn_10_tb_1_e_s_q2,q2,-0.004728564061224461,-5.887852668762207,5.883124104700983,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_10,fbattn_10_tb_1_e_s_q3,q3,-4.516600608825684,-4.954100608825684,0.4375,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_10,fbattn_10_tb_1_e_s_q4,q4,-5.322795867919922,-5.135295867919922,-0.1875,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_10,fbattn_10_tb_1_s_e_q1,q1,-3.1784143447875977,-0.048991505056619644,-3.129422839730978,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_10,fbattn_10_tb_1_s_e_q2,q2,-0.0015567338559776545,-8.63906192779541,8.637505193939433,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_10,fbattn_10_tb_1_s_e_q3,q3,-5.3799614906311035,-3.0674614906311035,-2.3125,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_10,fbattn_10_tb_1_s_e_q4,q4,-3.472630739212036,-5.160130500793457,1.687499761581421,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_10,fbattn_10_tb_1_s_s_q1,q1,-3.3008837699890137,-0.04402460157871246,-3.256859168410301,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_10,fbattn_10_tb_1_s_s_q2,q2,-0.0032789534889161587,-6.887437343597412,6.884158390108496,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_10,fbattn_10_tb_1_s_s_q3,q3,-4.946916580200195,-2.8844165802001953,-2.0625,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_10,fbattn_10_tb_1_s_s_q4,q4,-2.7636067867279053,-4.763607025146484,2.000000238418579,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_11,fbattn_11_fb_1_e_e_q1,q1,-0.0006317288498394191,-12.500631332397461,12.499999603547622,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_11,fbattn_11_fb_1_e_e_q2,q2,-4.020383358001709,-0.020383527502417564,-3.9999998304992914,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_11,fbattn_11_fb_1_e_e_q3,q3,-8.363567352294922,-6.863566875457764,-1.5000004768371582,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_11,fbattn_11_fb_1_e_e_q4,q4,-5.485531330108643,-7.110531330108643,1.625,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_11,fbattn_11_fb_1_e_s_q1,q1,-0.0012226970866322517,-11.688722610473633,11.687499913387,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_11,fbattn_11_fb_1_e_s_q2,q2,-2.132051944732666,-0.13205188512802124,-2.0000000596046448,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_11,fbattn_11_fb_1_e_s_q3,q3,-7.739283084869385,-6.676783084869385,-1.0625,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_11,fbattn_11_fb_1_e_s_q4,q4,-5.161282539367676,-5.973782539367676,0.8125,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_11,fbattn_11_fb_1_s_e_q1,q1,-0.001291037304326892,-11.126291275024414,11.125000237720087,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_11,fbattn_11_fb_1_s_e_q2,q2,-2.2448034286499023,-0.1198035255074501,-2.1249999031424522,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_11,fbattn_11_fb_1_s_e_q3,q3,-8.384692192077637,-8.009692192077637,-0.375,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_11,fbattn_11_fb_1_s_e_q4,q4,-6.486060619354248,-7.736060619354248,1.25,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_11,fbattn_11_fb_1_s_s_q1,q1,-0.0014240134041756392,-10.126423835754395,10.124999822350219,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_11,fbattn_11_fb_1_s_s_q2,q2,-0.907294750213623,-0.532294750213623,-0.375,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_11,fbattn_11_fb_1_s_s_q3,q3,-7.633022308349609,-6.883022308349609,-0.75,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_11,fbattn_11_fb_1_s_s_q4,q4,-5.903696537017822,-6.966196537017822,1.0625,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_11,fbattn_11_tb_1_e_e_q1,q1,-5.696563720703125,-0.009063648991286755,-5.687500071711838,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_11,fbattn_11_tb_1_e_e_q2,q2,-0.0026076382491737604,-8.752607345581055,8.749999707331881,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_11,fbattn_11_tb_1_e_e_q3,q3,-7.209147930145264,-8.802898406982422,1.5937504768371582,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_11,fbattn_11_tb_1_e_e_q4,q4,-8.988041877746582,-6.894291877746582,-2.09375,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_11,fbattn_11_tb_1_e_s_q1,q1,-2.9340717792510986,-0.059071846306324005,-2.8749999329447746,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_11,fbattn_11_tb_1_e_s_q2,q2,-0.0013505632523447275,-7.938850402832031,7.9374998395796865,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_11,fbattn_11_tb_1_e_s_q3,q3,-6.97379207611084,-8.22379207611084,1.25,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_11,fbattn_11_tb_1_e_s_q4,q4,-7.757312774658203,-6.444812774658203,-1.3125,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_11,fbattn_11_tb_1_s_e_q1,q1,-6.132480144500732,-0.007480349391698837,-6.124999795109034,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_11,fbattn_11_tb_1_s_e_q2,q2,-0.0019252828788012266,-9.564425468444824,9.562500185566023,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_11,fbattn_11_tb_1_s_e_q3,q3,-8.350582122802734,-8.913082122802734,0.5625,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_11,fbattn_11_tb_1_s_e_q4,q4,-9.4214448928833,-7.952694892883301,-1.46875,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_11,fbattn_11_tb_1_s_s_q1,q1,-3.055144786834717,-0.05514485761523247,-2.9999999292194843,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_11,fbattn_11_tb_1_s_s_q2,q2,-0.0017683359328657389,-8.251768112182617,8.249999776249751,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_11,fbattn_11_tb_1_s_s_q3,q3,-8.69865894317627,-9.13615894317627,0.4375,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_11,fbattn_11_tb_1_s_s_q4,q4,-8.167299270629883,-8.167299270629883,0.0,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_12,fbattn_12_fb_1_e_e_q1,q1,-0.003262556390836835,-11.065762519836426,11.062499963445589,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_12,fbattn_12_fb_1_e_e_q2,q2,-4.8870391845703125,-0.012039258144795895,-4.874999926425517,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_12,fbattn_12_fb_1_e_e_q3,q3,-8.330211639404297,-5.548961639404297,-2.78125,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_12,fbattn_12_fb_1_e_e_q4,q4,-5.175978660583496,-8.144728660583496,2.96875,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_12,fbattn_12_fb_1_e_s_q1,q1,-0.0027205857913941145,-7.877720355987549,7.874999770196155,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_12,fbattn_12_fb_1_e_s_q2,q2,-3.6543214321136475,-0.02932148426771164,-3.624999947845936,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_12,fbattn_12_fb_1_e_s_q3,q3,-8.787590026855469,-5.975090026855469,-2.8125,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_12,fbattn_12_fb_1_e_s_q4,q4,-5.048474311828613,-8.579724311828613,3.53125,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_12,fbattn_12_fb_1_s_e_q1,q1,-0.0017307315720245242,-9.501730918884277,9.500000187312253,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_12,fbattn_12_fb_1_s_e_q2,q2,-4.638115406036377,-0.013115212321281433,-4.6250001937150955,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_12,fbattn_12_fb_1_s_e_q3,q3,-6.9876179695129395,-3.7376179695129395,-3.25,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_12,fbattn_12_fb_1_s_e_q4,q4,-3.1706740856170654,-6.6706743240356445,3.500000238418579,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_12,fbattn_12_fb_1_s_s_q1,q1,-0.0030089602805674076,-8.190508842468262,8.187499882187694,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_12,fbattn_12_fb_1_s_s_q2,q2,-3.41196346282959,-0.03696335479617119,-3.3750001080334187,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_12,fbattn_12_fb_1_s_s_q3,q3,-8.320306777954102,-3.3828065395355225,-4.937500238418579,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_12,fbattn_12_fb_1_s_s_q4,q4,-2.875261068344116,-8.219011306762695,5.343750238418579,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_12,fbattn_12_tb_1_e_e_q1,q1,-2.4692745208740234,-0.09427460283041,-2.3749999180436134,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_12,fbattn_12_tb_1_e_e_q2,q2,-0.0011486368020996451,-8.751148223876953,8.749999587074853,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_12,fbattn_12_tb_1_e_e_q3,q3,-10.138440132141113,-3.513439655303955,-6.625000476837158,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_12,fbattn_12_tb_1_e_e_q4,q4,-4.0593366622924805,-10.74683666229248,6.6875,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_12,fbattn_12_tb_1_e_s_q1,q1,-3.412341594696045,-0.037341710180044174,-3.3749998845160007,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_12,fbattn_12_tb_1_e_s_q2,q2,-0.0015394752845168114,-7.689039707183838,7.687500231899321,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_12,fbattn_12_tb_1_e_s_q3,q3,-9.081233978271484,-3.6124837398529053,-5.468750238418579,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_12,fbattn_12_tb_1_e_s_q4,q4,-4.248624801635742,-9.186124801635742,4.9375,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_12,fbattn_12_tb_1_s_e_q1,q1,-3.654965877532959,-0.029965970665216446,-3.6249999068677425,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_12,fbattn_12_tb_1_s_e_q2,q2,-0.0009199915803037584,-8.938420295715332,8.937500304135028,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_12,fbattn_12_tb_1_s_e_q3,q3,-9.158798217773438,-3.2212979793548584,-5.937500238418579,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_12,fbattn_12_tb_1_s_e_q4,q4,-3.858402729034424,-9.295902252197266,5.437499523162842,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_12,fbattn_12_tb_1_s_s_q1,q1,-1.7084625959396362,-0.2084626406431198,-1.4999999552965164,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_12,fbattn_12_tb_1_s_s_q2,q2,-0.000993711524643004,-7.688493728637695,7.687500017113052,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_12,fbattn_12_tb_1_s_s_q3,q3,-7.759811878204346,-2.1973118782043457,-5.5625,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_12,fbattn_12_tb_1_s_s_q4,q4,-3.4009037017822266,-8.400903701782227,5.0,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_1,fbattn_1_fb_1_e_e_q1,q1,-0.0014936492079868913,-7.376493453979492,7.374999804771505,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_1,fbattn_1_fb_1_e_e_q2,q2,-0.579763650894165,-0.829763650894165,0.25,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_1,fbattn_1_fb_1_e_e_q3,q3,-5.674839019775391,-3.2373390197753906,-2.4375,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_1,fbattn_1_fb_1_e_e_q4,q4,-3.3392066955566406,-6.339206695556641,3.0,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_1,fbattn_1_fb_1_e_s_q1,q1,-0.001026341924443841,-8.626026153564453,8.62499981164001,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_1,fbattn_1_fb_1_e_s_q2,q2,-0.47625279426574707,-0.9762527942657471,0.5,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_1,fbattn_1_fb_1_e_s_q3,q3,-5.244704246520996,-3.494704484939575,-1.749999761581421,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_1,fbattn_1_fb_1_e_s_q4,q4,-2.8787622451782227,-5.566262245178223,2.6875,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_1,fbattn_1_fb_1_s_e_q1,q1,-0.0010237219976261258,-7.876023769378662,7.875000047381036,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_1,fbattn_1_fb_1_s_e_q2,q2,-0.05594055354595184,-2.930940628051758,2.875000074505806,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_1,fbattn_1_fb_1_s_e_q3,q3,-5.087241172790527,-3.8997409343719482,-1.187500238418579,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_1,fbattn_1_fb_1_s_e_q4,q4,-3.5605051517486572,-5.623004913330078,2.062499761581421,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_1,fbattn_1_fb_1_s_s_q1,q1,-0.0005124686285853386,-10.00051212310791,9.999999654479325,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_1,fbattn_1_fb_1_s_s_q2,q2,-0.14382553100585938,-2.0188255310058594,1.875,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_1,fbattn_1_fb_1_s_s_q3,q3,-4.99543571472168,-4.43293571472168,-0.5625,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_1,fbattn_1_fb_1_s_s_q4,q4,-4.697968482971191,-5.072968482971191,0.375,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_1,fbattn_1_tb_1_e_e_q1,q1,-6.9392409324646,-0.0017409658757969737,-6.937499966588803,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_1,fbattn_1_tb_1_e_e_q2,q2,-0.0009072478278540075,-8.500906944274902,8.499999696447048,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_1,fbattn_1_tb_1_e_e_q3,q3,-4.549864768981934,-3.7373650074005127,-0.8124997615814209,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_1,fbattn_1_tb_1_e_e_q4,q4,-3.1316943168640137,-3.8816943168640137,0.75,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_1,fbattn_1_tb_1_e_s_q1,q1,-7.064019680023193,-0.0015195977175608277,-7.0625000823056325,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_1,fbattn_1_tb_1_e_s_q2,q2,-0.0014636528212577105,-8.376463890075684,8.375000237254426,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_1,fbattn_1_tb_1_e_s_q3,q3,-5.30472469329834,-3.929724931716919,-1.374999761581421,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_1,fbattn_1_tb_1_e_s_q4,q4,-2.7930190563201904,-4.1680192947387695,1.375000238418579,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_1,fbattn_1_tb_1_s_e_q1,q1,-9.000364303588867,-0.00036435641231946647,-8.999999947176548,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_1,fbattn_1_tb_1_s_e_q2,q2,-0.00048744716332294047,-9.000487327575684,8.99999988041236,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_1,fbattn_1_tb_1_s_e_q3,q3,-4.9542155265808105,-3.1417155265808105,-1.8125,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_1,fbattn_1_tb_1_s_e_q4,q4,-2.523155927658081,-4.39815616607666,1.875000238418579,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_1,fbattn_1_tb_1_s_s_q1,q1,-8.0009183883667,-0.00091856240760535,-7.999999825959094,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_1,fbattn_1_tb_1_s_s_q2,q2,-0.0008616310660727322,-8.813361167907715,8.812499536841642,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_1,fbattn_1_tb_1_s_s_q3,q3,-5.1409406661987305,-3.5159409046173096,-1.624999761581421,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_1,fbattn_1_tb_1_s_s_q4,q4,-2.397484302520752,-3.522484302520752,1.125,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_2,fbattn_2_fb_1_e_e_q1,q1,-0.004835357889533043,-9.941339492797852,9.936504134908319,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_2,fbattn_2_fb_1_e_e_q2,q2,-0.21059413254261017,-1.7114726305007935,1.5008784979581833,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_2,fbattn_2_fb_1_e_e_q3,q3,-2.224637269973755,-2.912137269973755,0.6875,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_2,fbattn_2_fb_1_e_e_q4,q4,-2.516706943511963,-1.0792068243026733,-1.4375001192092896,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_2,fbattn_2_fb_1_e_s_q1,q1,-0.003237592987716198,-13.127226829528809,13.123989236541092,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_2,fbattn_2_fb_1_e_s_q2,q2,-0.4855739176273346,-0.9870487451553345,0.5014748275279999,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_2,fbattn_2_fb_1_e_s_q3,q3,-2.0987627506256104,-2.9737627506256104,0.875,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_2,fbattn_2_fb_1_e_s_q4,q4,-2.629014015197754,-0.6915141344070435,-1.9374998807907104,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_2,fbattn_2_fb_1_s_e_q1,q1,-0.0038911616429686546,-9.628227233886719,9.62433607224375,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_2,fbattn_2_fb_1_s_e_q2,q2,-0.05606093257665634,-3.0567595958709717,3.0006986632943153,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_2,fbattn_2_fb_1_s_e_q3,q3,-2.507664442062378,-2.445164442062378,-0.0625,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_2,fbattn_2_fb_1_s_e_q4,q4,-1.5997989177703857,-1.9747989177703857,0.375,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_2,fbattn_2_fb_1_s_s_q1,q1,-0.002983426908031106,-12.502303123474121,12.49931969656609,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_2,fbattn_2_fb_1_s_s_q2,q2,-0.9844843745231628,-0.4852117598056793,-0.4992726147174835,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_2,fbattn_2_fb_1_s_s_q3,q3,-2.8610565662384033,-2.6110565662384033,-0.25,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_2,fbattn_2_fb_1_s_s_q4,q4,-1.775329828262329,-1.025329828262329,-0.75,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_2,fbattn_2_tb_1_e_e_q1,q1,-7.067357063293457,-0.0038025707472115755,-7.0635544925462455,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_2,fbattn_2_tb_1_e_e_q2,q2,-0.0029933906625956297,-9.379918098449707,9.376924707787111,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_2,fbattn_2_tb_1_e_e_q3,q3,-5.8254594802856445,-3.4504594802856445,-2.375,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_2,fbattn_2_tb_1_e_e_q4,q4,-2.5501489639282227,-4.550148963928223,2.0,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_2,fbattn_2_tb_1_e_s_q1,q1,-7.316401481628418,-0.003373529063537717,-7.31302795256488,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_2,fbattn_2_tb_1_e_s_q2,q2,-0.0027480479329824448,-9.503549575805664,9.500801527872682,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_2,fbattn_2_tb_1_e_s_q3,q3,-6.642080783843994,-4.454580783843994,-2.1875,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_2,fbattn_2_tb_1_e_s_q4,q4,-2.8852415084838867,-4.822741508483887,1.9375,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_2,fbattn_2_tb_1_s_e_q1,q1,-8.877495765686035,-0.0018252156442031264,-8.875670550041832,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_2,fbattn_2_tb_1_s_e_q2,q2,-0.0015103134792298079,-10.439967155456543,10.438456841977313,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_2,fbattn_2_tb_1_s_e_q3,q3,-5.348840236663818,-3.1613402366638184,-2.1875,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_2,fbattn_2_tb_1_s_e_q4,q4,-2.0823216438293457,-5.207321643829346,3.125,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_2,fbattn_2_tb_1_s_s_q1,q1,-8.753466606140137,-0.002568281954154372,-8.750898324185982,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_2,fbattn_2_tb_1_s_s_q2,q2,-0.0039749909192323685,-9.067809104919434,9.063834114000201,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_2,fbattn_2_tb_1_s_s_q3,q3,-6.147947311401367,-4.210447311401367,-1.9375,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_2,fbattn_2_tb_1_s_s_q4,q4,-3.5652966499328613,-5.565296649932861,2.0,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_3,fbattn_3_fb_1_e_e_q1,q1,-0.0021027852781116962,-12.252102851867676,12.250000066589564,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_3,fbattn_3_fb_1_e_e_q2,q2,-0.39142945408821106,-1.1414294242858887,0.7499999701976776,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_3,fbattn_3_fb_1_e_e_q3,q3,-7.5672221183776855,-3.7234721183776855,-3.84375,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_3,fbattn_3_fb_1_e_e_q4,q4,-2.770433187484741,-7.70793342590332,4.937500238418579,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_3,fbattn_3_fb_1_e_s_q1,q1,-0.004799037706106901,-9.254798889160156,9.24999985145405,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_3,fbattn_3_fb_1_e_s_q2,q2,-0.6396569609642029,-0.7646569609642029,0.125,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_3,fbattn_3_fb_1_e_s_q3,q3,-7.229533672332764,-3.2607836723327637,-3.96875,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_3,fbattn_3_fb_1_e_s_q4,q4,-2.6262195110321045,-7.344969749450684,4.718750238418579,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_3,fbattn_3_fb_1_s_e_q1,q1,-0.001573873101733625,-12.37657356262207,12.374999689520337,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_3,fbattn_3_fb_1_s_e_q2,q2,-0.0187520794570446,-4.143752098083496,4.1250000186264515,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_3,fbattn_3_fb_1_s_e_q3,q3,-7.088594436645508,-3.7760941982269287,-3.312500238418579,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_3,fbattn_3_fb_1_s_e_q4,q4,-2.1375324726104736,-7.5125322341918945,5.374999761581421,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_3,fbattn_3_fb_1_s_s_q1,q1,-0.0033273117151111364,-10.315827369689941,10.31250005797483,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_3,fbattn_3_fb_1_s_s_q2,q2,-0.16454024612903595,-1.9145402908325195,1.7500000447034836,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_3,fbattn_3_fb_1_s_s_q3,q3,-6.945935249328613,-3.6959352493286133,-3.25,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_3,fbattn_3_fb_1_s_s_q4,q4,-2.718857765197754,-7.218857765197754,4.5,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_3,fbattn_3_tb_1_e_e_q1,q1,-7.253297805786133,-0.0032978456001728773,-7.24999996018596,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_3,fbattn_3_tb_1_e_e_q2,q2,-0.0026496085338294506,-9.315149307250977,9.312499698717147,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_3,fbattn_3_tb_1_e_e_q3,q3,-7.529679298400879,-1.3109294176101685,-6.2187498807907104,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_3,fbattn_3_tb_1_e_e_q4,q4,-0.5577348470687866,-8.307734489440918,7.749999642372131,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_3,fbattn_3_tb_1_e_s_q1,q1,-8.564733505249023,-0.002233869396150112,-8.562499635852873,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_3,fbattn_3_tb_1_e_s_q2,q2,-0.001873882138170302,-10.064373970031738,10.062500087893568,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_3,fbattn_3_tb_1_e_s_q3,q3,-8.37858772277832,-0.8473376035690308,-7.5312501192092896,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_3,fbattn_3_tb_1_e_s_q4,q4,-0.4834863543510437,-8.13973617553711,7.656249821186066,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_3,fbattn_3_tb_1_s_e_q1,q1,-8.688840866088867,-0.0013412775006145239,-8.687499588588253,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_3,fbattn_3_tb_1_s_e_q2,q2,-0.001100054127164185,-10.688599586486816,10.687499532359652,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_3,fbattn_3_tb_1_s_e_q3,q3,-8.96617317199707,-0.7474236488342285,-8.218749523162842,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_3,fbattn_3_tb_1_s_e_q4,q4,-0.25448545813560486,-9.004485130310059,8.749999672174454,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_3,fbattn_3_tb_1_s_s_q1,q1,-9.063432693481445,-0.0009326160652562976,-9.062500077416189,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_3,fbattn_3_tb_1_s_s_q2,q2,-0.0018919678404927254,-9.87689208984375,9.875000122003257,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_3,fbattn_3_tb_1_s_s_q3,q3,-8.305143356323242,-0.5863930583000183,-7.718750298023224,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_3,fbattn_3_tb_1_s_s_q4,q4,-0.30618852376937866,-8.243688583374023,7.937500059604645,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_4,fbattn_4_fb_1_e_e_q1,q1,-0.0016628975281491876,-9.001663208007812,9.000000310479663,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_4,fbattn_4_fb_1_e_e_q2,q2,-3.9070546627044678,-0.03205477073788643,-3.8749998919665813,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_4,fbattn_4_fb_1_e_e_q3,q3,-4.992198944091797,-2.992198944091797,-2.0,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_4,fbattn_4_fb_1_e_e_q4,q4,-2.2525925636291504,-4.19009256362915,1.9375,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_4,fbattn_4_fb_1_e_s_q1,q1,-0.0006355411605909467,-12.000635147094727,11.999999605934136,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_4,fbattn_4_fb_1_e_s_q2,q2,-4.641402244567871,-0.016402173787355423,-4.625000070780516,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_4,fbattn_4_fb_1_e_s_q3,q3,-5.076943397521973,-2.8894433975219727,-2.1875,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_4,fbattn_4_fb_1_e_s_q4,q4,-2.254164457321167,-4.941664695739746,2.687500238418579,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_4,fbattn_4_fb_1_s_e_q1,q1,-0.0010184821439906955,-9.313518524169922,9.312500042025931,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_4,fbattn_4_fb_1_s_e_q2,q2,-2.154055118560791,-0.15405520796775818,-1.9999999105930328,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_4,fbattn_4_fb_1_s_e_q3,q3,-4.315979957580566,-2.5034801959991455,-1.812499761581421,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_4,fbattn_4_fb_1_s_e_q4,q4,-1.9623950719833374,-3.962395191192627,2.0000001192092896,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_4,fbattn_4_fb_1_s_s_q1,q1,-0.0004530118894763291,-10.812952995300293,10.812499983410817,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_4,fbattn_4_fb_1_s_s_q2,q2,-3.658113956451416,-0.033113911747932434,-3.6250000447034836,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_4,fbattn_4_fb_1_s_s_q3,q3,-4.912749290466309,-2.4127492904663086,-2.5,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_4,fbattn_4_fb_1_s_s_q4,q4,-1.7994242906570435,-4.424424171447754,2.6249998807907104,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_4,fbattn_4_tb_1_e_e_q1,q1,-1.2327706813812256,-0.3577706813812256,-0.875,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_4,fbattn_4_tb_1_e_e_q2,q2,-0.005155364517122507,-6.505155563354492,6.50000019883737,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_4,fbattn_4_tb_1_e_e_q3,q3,-6.157527923583984,-2.0950279235839844,-4.0625,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_4,fbattn_4_tb_1_e_e_q4,q4,-1.5652050971984863,-6.315205097198486,4.75,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_4,fbattn_4_tb_1_e_s_q1,q1,-2.0228800773620605,-0.14788000285625458,-1.875000074505806,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_4,fbattn_4_tb_1_e_s_q2,q2,-0.004913517739623785,-6.442413330078125,6.437499812338501,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_4,fbattn_4_tb_1_e_s_q3,q3,-6.1627678871154785,-1.8502678871154785,-4.3125,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_4,fbattn_4_tb_1_e_s_q4,q4,-1.7938799858093262,-5.481379985809326,3.6875,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_4,fbattn_4_tb_1_s_e_q1,q1,-3.0529282093048096,-0.05292832478880882,-2.9999998845160007,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_4,fbattn_4_tb_1_s_e_q2,q2,-0.00560545502230525,-6.943105220794678,6.9374997657723725,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_4,fbattn_4_tb_1_s_e_q3,q3,-6.039562225341797,-1.7895622253417969,-4.25,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_4,fbattn_4_tb_1_s_e_q4,q4,-0.8301465511322021,-6.017646789550781,5.187500238418579,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_4,fbattn_4_tb_1_s_s_q1,q1,-3.0524768829345703,-0.05247687175869942,-3.000000011175871,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_4,fbattn_4_tb_1_s_s_q2,q2,-0.002043066080659628,-8.002042770385742,7.999999704305083,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_4,fbattn_4_tb_1_s_s_q3,q3,-6.654595851898193,-0.7170957326889038,-5.9375001192092896,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_4,fbattn_4_tb_1_s_s_q4,q4,-1.3796685934066772,-5.629668712615967,4.2500001192092896,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_5,fbattn_5_fb_1_e_e_q1,q1,-0.002039734972640872,-12.252039909362793,12.250000174390152,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_5,fbattn_5_fb_1_e_e_q2,q2,-0.058501847088336945,-2.933501958847046,2.875000111758709,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_5,fbattn_5_fb_1_e_e_q3,q3,-5.387867450714111,-0.6381080150604248,-4.7497594356536865,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_5,fbattn_5_fb_1_e_e_q4,q4,-0.4449622929096222,-7.194684982299805,6.7497226893901825,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_5,fbattn_5_fb_1_e_s_q1,q1,-0.002224948490038514,-10.689724922180176,10.687499973690137,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_5,fbattn_5_fb_1_e_s_q2,q2,-0.31973180174827576,-1.3197318315505981,1.0000000298023224,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_5,fbattn_5_fb_1_e_s_q3,q3,-5.546161651611328,-0.3591763973236084,-5.18698525428772,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_5,fbattn_5_fb_1_e_s_q4,q4,-0.19732551276683807,-7.321903705596924,7.124578192830086,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_5,fbattn_5_fb_1_s_e_q1,q1,-0.0032045699190348387,-11.565704345703125,11.56249977578409,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_5,fbattn_5_fb_1_s_e_q2,q2,-0.14877106249332428,-2.023771047592163,1.8749999850988388,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_5,fbattn_5_fb_1_s_e_q3,q3,-4.28531551361084,-0.6605405807495117,-3.624774932861328,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_5,fbattn_5_fb_1_s_e_q4,q4,-0.5530990362167358,-5.865429878234863,5.312330842018127,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_5,fbattn_5_fb_1_s_s_q1,q1,-0.003373766550794244,-8.690874099731445,8.687500333180651,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_5,fbattn_5_fb_1_s_s_q2,q2,-0.13478204607963562,-2.134782075881958,2.0000000298023224,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_5,fbattn_5_fb_1_s_s_q3,q3,-4.465063095092773,-0.3403721749782562,-4.124690920114517,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_5,fbattn_5_fb_1_s_s_q4,q4,-0.3680248558521271,-6.305379867553711,5.937355011701584,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_5,fbattn_5_tb_1_e_e_q1,q1,-2.585203170776367,-0.0852031260728836,-2.5000000447034836,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_5,fbattn_5_tb_1_e_e_q2,q2,-0.003473322605714202,-7.753473281860352,7.749999959254637,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_5,fbattn_5_tb_1_e_e_q3,q3,-4.991550445556641,-0.43131205439567566,-4.560238391160965,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_5,fbattn_5_tb_1_e_e_q4,q4,-0.3519604206085205,-5.474263668060303,5.122303247451782,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_5,fbattn_5_tb_1_e_s_q1,q1,-4.63969087600708,-0.014690914191305637,-4.624999961815774,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_5,fbattn_5_tb_1_e_s_q2,q2,-0.0017392997397109866,-9.626739501953125,9.625000202213414,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_5,fbattn_5_tb_1_e_s_q3,q3,-4.8473219871521,-0.3487718105316162,-4.498550176620483,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_5,fbattn_5_tb_1_e_s_q4,q4,-0.464097797870636,-4.837636947631836,4.3735391497612,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_5,fbattn_5_tb_1_s_e_q1,q1,-5.259369373321533,-0.009369449689984322,-5.249999923631549,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_5,fbattn_5_tb_1_s_e_q2,q2,-0.002359108766540885,-9.939859390258789,9.937500281492248,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_5,fbattn_5_tb_1_s_e_q3,q3,-7.27553129196167,-0.21360568702220917,-7.061925604939461,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_5,fbattn_5_tb_1_s_e_q4,q4,-0.1841139942407608,-7.495451927185059,7.311337932944298,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_5,fbattn_5_tb_1_s_s_q1,q1,-5.633706569671631,-0.008706466294825077,-5.625000103376806,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_5,fbattn_5_tb_1_s_s_q2,q2,-0.00303356209769845,-9.878033638000488,9.87500007590279,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_5,fbattn_5_tb_1_s_s_q3,q3,-6.7203569412231445,-0.28323206305503845,-6.437124878168106,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_5,fbattn_5_tb_1_s_s_q4,q4,-0.3386446237564087,-6.650294303894043,6.311649680137634,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_6,fbattn_6_fb_1_e_e_q1,q1,-0.0008814025786705315,-8.62588119506836,8.624999792489689,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_6,fbattn_6_fb_1_e_e_q2,q2,-0.4403494894504547,-1.0653494596481323,0.6249999701976776,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_6,fbattn_6_fb_1_e_e_q3,q3,-3.992914915084839,-2.930414915084839,-1.0625,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_6,fbattn_6_fb_1_e_e_q4,q4,-2.208963394165039,-3.458963394165039,1.25,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_6,fbattn_6_fb_1_e_s_q1,q1,-0.0011548285838216543,-8.001154899597168,8.000000071013346,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_6,fbattn_6_fb_1_e_s_q2,q2,-1.9147088527679443,-0.16470880806446075,-1.7500000447034836,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_6,fbattn_6_fb_1_e_s_q3,q3,-4.059327125549316,-3.4968271255493164,-0.5625,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_6,fbattn_6_fb_1_e_s_q4,q4,-2.267557144165039,-3.267557144165039,1.0,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_6,fbattn_6_fb_1_s_e_q1,q1,-0.0013256819220259786,-8.438825607299805,8.437499925377779,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_6,fbattn_6_fb_1_s_e_q2,q2,-0.2986227571964264,-1.423622727394104,1.1249999701976776,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_6,fbattn_6_fb_1_s_e_q3,q3,-4.7295379638671875,-4.0420379638671875,-0.6875,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_6,fbattn_6_fb_1_s_e_q4,q4,-2.44775390625,-3.82275390625,1.375,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_6,fbattn_6_fb_1_s_s_q1,q1,-0.0010881462367251515,-8.62608814239502,8.624999996158294,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_6,fbattn_6_fb_1_s_s_q2,q2,-2.243830442428589,-0.1188303604722023,-2.1250000819563866,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_6,fbattn_6_fb_1_s_s_q3,q3,-4.680233955383301,-3.1802337169647217,-1.500000238418579,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_6,fbattn_6_fb_1_s_s_q4,q4,-2.0405826568603516,-3.8530826568603516,1.8125,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_6,fbattn_6_tb_1_e_e_q1,q1,-5.258549690246582,-0.008549517020583153,-5.250000173225999,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_6,fbattn_6_tb_1_e_e_q2,q2,-0.002371596172451973,-9.002371788024902,9.00000019185245,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_6,fbattn_6_tb_1_e_e_q3,q3,-5.533166885375977,-4.720666885375977,-0.8125,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_6,fbattn_6_tb_1_e_e_q4,q4,-3.7793283462524414,-4.966828346252441,1.1875,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_6,fbattn_6_tb_1_e_s_q1,q1,-1.8097634315490723,-0.18476349115371704,-1.6249999403953552,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_6,fbattn_6_tb_1_e_s_q2,q2,-0.004215046763420105,-6.504215240478516,6.5000001937150955,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_6,fbattn_6_tb_1_e_s_q3,q3,-4.905380725860596,-4.030380725860596,-0.875,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_6,fbattn_6_tb_1_e_s_q4,q4,-3.1573374271392822,-4.532337188720703,1.374999761581421,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_6,fbattn_6_tb_1_s_e_q1,q1,-5.508913040161133,-0.008913135156035423,-5.499999905005097,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_6,fbattn_6_tb_1_s_e_q2,q2,-0.006623575929552317,-7.6316237449646,7.625000169035047,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_6,fbattn_6_tb_1_s_e_q3,q3,-5.773557662963867,-4.773557662963867,-1.0,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_6,fbattn_6_tb_1_s_e_q4,q4,-3.733272075653076,-6.233272075653076,2.5,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_6,fbattn_6_tb_1_s_s_q1,q1,-2.023545503616333,-0.1485455483198166,-1.8749999552965164,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_6,fbattn_6_tb_1_s_s_q2,q2,-0.00868188589811325,-5.446181774139404,5.437499888241291,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_6,fbattn_6_tb_1_s_s_q3,q3,-5.826128959655762,-4.701128959655762,-1.125,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_6,fbattn_6_tb_1_s_s_q4,q4,-3.2704660892486572,-4.957965850830078,1.687499761581421,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_7,fbattn_7_fb_1_e_e_q1,q1,-0.02303251624107361,-7.3980326652526855,7.375000149011612,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_7,fbattn_7_fb_1_e_e_q2,q2,-0.33122220635414124,-1.3312221765518188,0.9999999701976776,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_7,fbattn_7_fb_1_e_e_q3,q3,-5.800658226013184,-3.7391653060913086,-2.061492919921875,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_7,fbattn_7_fb_1_e_e_q4,q4,-0.7254721522331238,-5.037683486938477,4.312211334705353,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_7,fbattn_7_fb_1_e_s_q1,q1,-0.01642281375825405,-8.203923225402832,8.187500411644578,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_7,fbattn_7_fb_1_e_s_q2,q2,-0.2698320746421814,-1.5198321342468262,1.2500000596046448,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_7,fbattn_7_fb_1_e_s_q3,q3,-5.025114059448242,-2.7772936820983887,-2.2478203773498535,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_7,fbattn_7_fb_1_e_s_q4,q4,-0.7365238070487976,-4.360973358154297,3.6244495511054993,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_7,fbattn_7_fb_1_s_e_q1,q1,-0.026795554906129837,-7.339295387268066,7.312499832361937,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_7,fbattn_7_fb_1_s_e_q2,q2,-0.026314960792660713,-4.776314735412598,4.749999774619937,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_7,fbattn_7_fb_1_s_e_q3,q3,-5.7898688316345215,-2.478362560272217,-3.3115062713623047,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_7,fbattn_7_fb_1_s_e_q4,q4,-0.8012921810150146,-4.800769805908203,3.9994776248931885,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_7,fbattn_7_fb_1_s_s_q1,q1,-0.012478725984692574,-8.887478828430176,8.875000102445483,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_7,fbattn_7_fb_1_s_s_q2,q2,-0.22114598751068115,-1.7211459875106812,1.5,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_7,fbattn_7_fb_1_s_s_q3,q3,-5.101644039154053,-1.9780174493789673,-3.1236265897750854,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_7,fbattn_7_fb_1_s_s_q4,q4,-0.9758804440498352,-4.100494384765625,3.12461394071579,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_7,fbattn_7_tb_1_e_e_q1,q1,-10.253488540649414,-0.0034886470530182123,-10.249999893596396,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_7,fbattn_7_tb_1_e_e_q2,q2,-0.0026343900244683027,-11.502634048461914,11.499999658437446,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_7,fbattn_7_tb_1_e_e_q3,q3,-6.645552635192871,-1.0133845806121826,-5.6321680545806885,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_7,fbattn_7_tb_1_e_e_q4,q4,-0.6631299257278442,-7.160588264465332,6.497458338737488,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_7,fbattn_7_tb_1_e_s_q1,q1,-12.19101619720459,-0.0035157317761331797,-12.187500465428457,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_7,fbattn_7_tb_1_e_s_q2,q2,-0.005239208694547415,-11.442739486694336,11.437500277999789,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_7,fbattn_7_tb_1_e_s_q3,q3,-5.913790702819824,-1.3517968654632568,-4.561993837356567,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_7,fbattn_7_tb_1_e_s_q4,q4,-0.6236630082130432,-6.6858296394348145,6.062166631221771,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_7,fbattn_7_tb_1_s_e_q1,q1,-11.627373695373535,-0.002373974770307541,-11.624999720603228,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_7,fbattn_7_tb_1_s_e_q2,q2,-0.00198560394346714,-12.314485549926758,12.31249994598329,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_7,fbattn_7_tb_1_s_e_q3,q3,-6.369065761566162,-1.1826530694961548,-5.186412692070007,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_7,fbattn_7_tb_1_s_e_q4,q4,-0.7005630135536194,-6.991350173950195,6.290787160396576,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_7,fbattn_7_tb_1_s_s_q1,q1,-12.816418647766113,-0.003918945789337158,-12.812499701976776,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_7,fbattn_7_tb_1_s_s_q2,q2,-0.0037763251457363367,-12.253776550292969,12.250000225147232,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_7,fbattn_7_tb_1_s_s_q3,q3,-6.675014495849609,-1.1130914688110352,-5.561923027038574,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_7,fbattn_7_tb_1_s_s_q4,q4,-0.657157301902771,-6.968927383422852,6.311770081520081,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_8,fbattn_8_fb_1_e_e_q1,q1,-0.005378656554967165,-7.630378723144531,7.625000066589564,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_8,fbattn_8_fb_1_e_e_q2,q2,-0.13825304806232452,-2.1382529735565186,1.999999925494194,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_8,fbattn_8_fb_1_e_e_q3,q3,-5.246827602386475,-1.9968276023864746,-3.25,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_8,fbattn_8_fb_1_e_e_q4,q4,-0.6559230089187622,-4.655922889709473,3.9999998807907104,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_8,fbattn_8_fb_1_e_s_q1,q1,-0.007698864210397005,-7.507699012756348,7.500000148545951,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_8,fbattn_8_fb_1_e_s_q2,q2,-0.7145748734474182,-0.7145748734474182,0.0,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_8,fbattn_8_fb_1_e_s_q3,q3,-5.075319290161133,-1.7003192901611328,-3.375,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_8,fbattn_8_fb_1_e_s_q4,q4,-0.5026236772537231,-4.315123558044434,3.8124998807907104,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_8,fbattn_8_fb_1_s_e_q1,q1,-0.003331707790493965,-7.815831661224365,7.812499953433871,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_8,fbattn_8_fb_1_s_e_q2,q2,-0.537950873374939,-0.912950873374939,0.375,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_8,fbattn_8_fb_1_s_e_q3,q3,-5.037653923034668,-3.475154161453247,-1.562499761581421,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_8,fbattn_8_fb_1_s_e_q4,q4,-0.8235293030738831,-4.448529243469238,3.6249999403953552,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_8,fbattn_8_fb_1_s_s_q1,q1,-0.005622169468551874,-7.193122386932373,7.187500217463821,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_8,fbattn_8_fb_1_s_s_q2,q2,-0.4969530701637268,-0.9969530701637268,0.5,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_8,fbattn_8_fb_1_s_s_q3,q3,-4.828705787658691,-3.0162060260772705,-1.812499761581421,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_8,fbattn_8_fb_1_s_s_q4,q4,-0.8179221153259277,-3.6304221153259277,2.8125,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_8,fbattn_8_tb_1_e_e_q1,q1,-7.399240016937256,-0.024239957332611084,-7.375000059604645,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_8,fbattn_8_tb_1_e_e_q2,q2,-0.016886968165636063,-12.079386711120605,12.06249974295497,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_8,fbattn_8_tb_1_e_e_q3,q3,-4.112768173217773,-3.1127679347991943,-1.000000238418579,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_8,fbattn_8_tb_1_e_e_q4,q4,-3.2768588066101074,-3.7143588066101074,0.4375,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_8,fbattn_8_tb_1_e_s_q1,q1,-7.269845485687256,-0.01984526589512825,-7.250000219792128,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_8,fbattn_8_tb_1_e_s_q2,q2,-0.0060423086397349834,-13.13104248046875,13.125000171829015,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_8,fbattn_8_tb_1_e_s_q3,q3,-3.4972870349884033,-2.6222870349884033,-0.875,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_8,fbattn_8_tb_1_e_s_q4,q4,-2.2575626373291016,-3.7575626373291016,1.5,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_8,fbattn_8_tb_1_s_e_q1,q1,-6.586159706115723,-0.02365952916443348,-6.562500176951289,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_8,fbattn_8_tb_1_s_e_q2,q2,-0.007306520827114582,-12.507306098937988,12.499999578110874,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_8,fbattn_8_tb_1_s_e_q3,q3,-4.170103073120117,-3.795103073120117,-0.375,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_8,fbattn_8_tb_1_s_e_q4,q4,-3.9025771617889404,-4.0900774002075195,0.1875002384185791,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_8,fbattn_8_tb_1_s_s_q1,q1,-5.704479694366455,-0.016979679465293884,-5.687500014901161,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_8,fbattn_8_tb_1_s_s_q2,q2,-0.005695661995559931,-11.193195343017578,11.187499681022018,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_8,fbattn_8_tb_1_s_s_q3,q3,-3.7368428707122803,-3.4868428707122803,-0.25,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_8,fbattn_8_tb_1_s_s_q4,q4,-2.67342209815979,-3.98592209815979,1.3125,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_9,fbattn_9_fb_1_e_e_q1,q1,-0.004220068454742432,-6.9408111572265625,6.93659108877182,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_9,fbattn_9_fb_1_e_e_q2,q2,-2.816642999649048,-0.06796809285879135,-2.7486749067902565,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_9,fbattn_9_fb_1_e_e_q3,q3,-8.86921501159668,-3.0254650115966797,-5.84375,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_9,fbattn_9_fb_1_e_e_q4,q4,-1.9757863283157349,-8.038286209106445,6.0624998807907104,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_9,fbattn_9_fb_1_e_s_q1,q1,-0.0076555549167096615,-5.50670051574707,5.499044960830361,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_9,fbattn_9_fb_1_e_s_q2,q2,-3.053194999694824,-0.05506342276930809,-2.998131576925516,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_9,fbattn_9_fb_1_e_s_q3,q3,-7.790956974029541,-2.978456974029541,-4.8125,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_9,fbattn_9_fb_1_e_s_q4,q4,-2.3522789478302,-6.789778709411621,4.437499761581421,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_9,fbattn_9_fb_1_s_e_q1,q1,-0.004025003407150507,-7.128695964813232,7.124670961406082,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_9,fbattn_9_fb_1_s_e_q2,q2,-1.2327293157577515,-0.3583466708660126,-0.8743826448917389,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_9,fbattn_9_fb_1_s_e_q3,q3,-8.769574165344238,-2.9258241653442383,-5.84375,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_9,fbattn_9_fb_1_s_e_q4,q4,-2.328935384750366,-7.922685623168945,5.593750238418579,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_9,fbattn_9_fb_1_s_s_q1,q1,-0.00671842647716403,-5.631137847900391,5.624419421423227,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_9,fbattn_9_fb_1_s_s_q2,q2,-2.135830879211426,-0.13730764389038086,-1.998523235321045,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_9,fbattn_9_fb_1_s_s_q3,q3,-8.606376647949219,-3.4188761711120605,-5.187500476837158,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_9,fbattn_9_fb_1_s_s_q4,q4,-2.3096046447753906,-7.934604644775391,5.625,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_9,fbattn_9_tb_1_e_e_q1,q1,-5.509888648986816,-0.006570047698915005,-5.503318601287901,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_9,fbattn_9_tb_1_e_e_q2,q2,-0.0034254465717822313,-6.6336469650268555,6.630221518455073,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_9,fbattn_9_tb_1_e_e_q3,q3,-9.78780460357666,-3.287804365158081,-6.500000238418579,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_9,fbattn_9_tb_1_e_e_q4,q4,-1.5164210796356201,-9.7976713180542,8.281250238418579,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_9,fbattn_9_tb_1_e_s_q1,q1,-7.629579067230225,-0.002253613667562604,-7.627325453562662,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_9,fbattn_9_tb_1_e_s_q2,q2,-0.002720704535022378,-7.817432403564453,7.814711699029431,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_9,fbattn_9_tb_1_e_s_q3,q3,-8.954858779907227,-3.3298583030700684,-5.625000476837158,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_9,fbattn_9_tb_1_e_s_q4,q4,-1.5576417446136475,-9.370141983032227,7.812500238418579,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_9,fbattn_9_tb_1_s_e_q1,q1,-6.009833812713623,-0.00717503484338522,-6.002658777870238,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_9,fbattn_9_tb_1_s_e_q2,q2,-0.00518145551905036,-7.50691032409668,7.501728868577629,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_9,fbattn_9_tb_1_s_e_q3,q3,-9.591772079467773,-3.5292725563049316,-6.062499523162842,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_9,fbattn_9_tb_1_s_e_q4,q4,-1.9841398000717163,-8.827889442443848,6.843749642372131,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_9,fbattn_9_tb_1_s_s_q1,q1,-6.8191046714782715,-0.005149197764694691,-6.813955473713577,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_9,fbattn_9_tb_1_s_s_q2,q2,-0.005480977240949869,-7.071303844451904,7.065822867210954,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_9,fbattn_9_tb_1_s_s_q3,q3,-9.545003890991211,-3.107503652572632,-6.437500238418579,,FB1,2,EleutherAI/pythia-6.9b
+FB_attn,fbattn_9,fbattn_9_tb_1_s_s_q4,q4,-1.6720950603485107,-10.39084529876709,8.718750238418579,,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_7,7_fb_1_s_e_ex,False Belief,-0.0012731788447126746,-7.688773155212402,7.68749997636769,0.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_7,7_fb_1_s_e_im,False Belief,-0.008870008401572704,-5.3838701248168945,5.375000116415322,0.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_7,7_tb_1_s_e_ex,True Belief,-0.0010069306008517742,-13.938507080078125,13.937500149477273,0.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_7,7_tb_1_s_e_im,True Belief,-0.001301514101214707,-12.751301765441895,12.75000025134068,0.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_7,7_fb_1_s_s_ex,False Belief,-0.0013516347389668226,-8.751351356506348,8.74999972176738,0.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_7,7_fb_1_s_s_im,False Belief,-0.013806556351482868,-5.263806343078613,5.24999978672713,0.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_7,7_tb_1_s_s_ex,True Belief,-0.0010850501712411642,-13.06358528137207,13.06250023120083,0.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_7,7_tb_1_s_s_im,True Belief,-0.0024806461296975613,-11.752480506896973,11.749999860767275,0.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_7,7_fb_1_e_e_ex,False Belief,-0.0006270825979299843,-9.313127517700195,9.312500435102265,0.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_7,7_fb_1_e_e_im,False Belief,-0.029399970546364784,-4.091899871826172,4.062499901279807,0.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_7,7_tb_1_e_e_ex,True Belief,-0.0030530530493706465,-10.690552711486816,10.687499658437446,0.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_7,7_tb_1_e_e_im,True Belief,-0.0045374054461717606,-9.817037582397461,9.81250017695129,0.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_7,7_fb_1_e_s_ex,False Belief,-0.0017416798509657383,-7.626741886138916,7.62500020628795,0.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_7,7_fb_1_e_s_im,False Belief,-0.015784556046128273,-4.515784740447998,4.50000018440187,0.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_7,7_tb_1_e_s_ex,True Belief,-0.0037889136001467705,-10.753788948059082,10.750000034458935,0.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_7,7_tb_1_e_s_im,True Belief,-0.0074285236187279224,-8.944928169250488,8.93749964563176,0.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_3,3_fb_1_s_e_ex,False Belief,-2.7386748790740967,-0.11367487162351608,-2.6250000074505806,0.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_3,3_fb_1_s_e_im,False Belief,-6.755539417266846,-0.005539424251765013,-6.749999993015081,0.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_3,3_tb_1_s_e_ex,True Belief,-0.00013076403411105275,-14.187630653381348,14.187499889347237,0.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_3,3_tb_1_s_e_im,True Belief,-0.0008388814167119563,-12.063339233398438,12.062500351981726,0.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_3,3_fb_1_s_s_ex,False Belief,-0.3038803040981293,-1.6788803339004517,1.3750000298023224,0.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_3,3_fb_1_s_s_im,False Belief,-5.881336212158203,-0.006336360704153776,-5.874999851454049,0.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_3,3_tb_1_s_s_ex,True Belief,-4.5298504119273275e-05,-13.437544822692871,13.437499524188752,0.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_3,3_tb_1_s_s_im,True Belief,-0.0008562712464481592,-11.688356399536133,11.687500128289685,0.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_3,3_fb_1_e_e_ex,False Belief,-0.24170102179050446,-1.8667010068893433,1.6249999850988388,0.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_3,3_fb_1_e_e_im,False Belief,-2.83398175239563,-0.08398164808750153,-2.7500001043081284,0.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_3,3_tb_1_e_e_ex,True Belief,-0.0001510267611593008,-14.000150680541992,13.999999653780833,0.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_3,3_tb_1_e_e_im,True Belief,-0.00014923889830242842,-14.31264877319336,14.312499534295057,0.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_3,3_fb_1_e_s_ex,False Belief,-0.010073182173073292,-5.760073184967041,5.750000002793968,0.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_3,3_fb_1_e_s_im,False Belief,-2.7056050300598145,-0.08060510456562042,-2.624999925494194,0.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_3,3_tb_1_e_s_ex,True Belief,-0.00013433984713628888,-13.375134468078613,13.375000128231477,0.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_3,3_tb_1_e_s_im,True Belief,-0.0006841464783065021,-11.688183784484863,11.687499638006557,0.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_5,5_fb_1_s_e_ex,False Belief,-0.006058779079467058,-6.256058692932129,6.249999913852662,0.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_5,5_fb_1_s_e_im,False Belief,-0.8336036801338196,-0.5836036801338196,-0.25,0.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_5,5_tb_1_s_e_ex,True Belief,-0.004380868282169104,-7.004380702972412,6.999999834690243,0.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_5,5_tb_1_s_e_im,True Belief,-0.004078642465174198,-7.9415788650512695,7.937500222586095,0.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_5,5_fb_1_s_s_ex,False Belief,-0.006171100307255983,-7.506171226501465,7.500000126194209,0.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_5,5_fb_1_s_s_im,False Belief,-0.8346146941184998,-0.5846146941184998,-0.25,0.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_5,5_tb_1_s_s_ex,True Belief,-0.0034973190631717443,-7.253497123718262,7.24999980465509,0.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_5,5_tb_1_s_s_im,True Belief,-0.005136863328516483,-8.130136489868164,8.124999626539648,0.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_5,5_fb_1_e_e_ex,False Belief,-0.002502050483599305,-10.19000244140625,10.18750039092265,0.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_5,5_fb_1_e_e_im,False Belief,-0.3193829655647278,-1.319382905960083,0.9999999403953552,0.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_5,5_tb_1_e_e_ex,True Belief,-0.003867291146889329,-6.253867149353027,6.249999858206138,0.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_5,5_tb_1_e_e_im,True Belief,-0.004478899762034416,-7.816978931427002,7.8125000316649675,0.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_5,5_fb_1_e_s_ex,False Belief,-0.0029621317517012358,-8.627962112426758,8.624999980675057,0.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_5,5_fb_1_e_s_im,False Belief,-0.35669592022895813,-1.2316958904266357,0.8749999701976776,0.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_5,5_tb_1_e_s_ex,True Belief,-0.002600147621706128,-7.315100193023682,7.3125000454019755,0.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_5,5_tb_1_e_s_im,True Belief,-0.003284062724560499,-9.253284454345703,9.250000391621143,0.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_8,8_fb_1_s_e_ex,False Belief,-0.0008391196606680751,-13.313339233398438,13.31250011373777,1.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_8,8_fb_1_s_e_im,False Belief,-0.9322357177734375,-0.5572357177734375,-0.375,1.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_8,8_tb_1_s_e_ex,True Belief,-0.02754082903265953,-4.902540683746338,4.874999854713678,1.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_8,8_tb_1_s_e_im,True Belief,-0.008982251398265362,-11.13398265838623,11.125000406987965,1.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_8,8_fb_1_s_s_ex,False Belief,-0.0011787617113441229,-13.688678741455078,13.687499979743734,1.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_8,8_fb_1_s_s_im,False Belief,-0.05629365146160126,-3.1812937259674072,3.125000074505806,1.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_8,8_tb_1_s_s_ex,True Belief,-0.015424367971718311,-5.0154242515563965,4.999999883584678,1.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_8,8_tb_1_s_s_im,True Belief,-0.0045830924063920975,-12.129583358764648,12.125000266358256,1.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_8,8_fb_1_e_e_ex,False Belief,-0.002544144168496132,-8.502544403076172,8.500000258907676,1.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_8,8_fb_1_e_e_im,False Belief,-2.1692826747894287,-0.16928258538246155,-2.000000089406967,1.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_8,8_tb_1_e_e_ex,True Belief,-0.14907746016979218,-2.2740774154663086,2.1249999552965164,1.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_8,8_tb_1_e_e_im,True Belief,-0.010341746732592583,-10.76034164428711,10.749999897554517,1.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_8,8_fb_1_e_s_ex,False Belief,-0.0036520943976938725,-10.19115161895752,10.187499524559826,1.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_8,8_fb_1_e_s_im,False Belief,-0.4724433422088623,-1.0974433422088623,0.625,1.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_8,8_tb_1_e_s_ex,True Belief,-0.0252431258559227,-5.525243282318115,5.5000001564621925,1.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_8,8_tb_1_e_s_im,True Belief,-0.013642525300383568,-13.701142311096191,13.687499785795808,1.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_9,9_fb_1_s_e_ex,False Belief,-0.0099496990442276,-5.13291597366333,5.1229662746191025,1.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_9,9_fb_1_s_e_im,False Belief,-2.3543481826782227,-0.1025170311331749,-2.2518311515450478,1.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_9,9_tb_1_s_e_ex,True Belief,-0.003951243124902248,-6.631712436676025,6.627761193551123,1.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_9,9_tb_1_s_e_im,True Belief,-0.0010099078062921762,-7.005117893218994,7.004107985412702,1.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_9,9_fb_1_s_s_ex,False Belief,-0.036175478249788284,-3.5351474285125732,3.498971950262785,1.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_9,9_fb_1_s_s_im,False Belief,-2.2440884113311768,-0.11743530631065369,-2.126653105020523,1.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_9,9_tb_1_s_s_ex,True Belief,-0.03348957374691963,-3.5375046730041504,3.5040150992572308,1.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_9,9_tb_1_s_s_im,True Belief,-0.006690126843750477,-5.009470462799072,5.002780335955322,1.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_9,9_fb_1_e_e_ex,False Belief,-0.06859202682971954,-2.9379711151123047,2.869379088282585,1.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_9,9_fb_1_e_e_im,False Belief,-2.9356837272644043,-0.05770278722047806,-2.8779809400439262,1.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_9,9_tb_1_e_e_ex,True Belief,-0.0033069944474846125,-6.380671501159668,6.377364506712183,1.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_9,9_tb_1_e_e_im,True Belief,-0.0008199428557418287,-7.753061294555664,7.752241351699922,1.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_9,9_fb_1_e_s_ex,False Belief,-0.05496375262737274,-3.1770193576812744,3.1220556050539017,1.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_9,9_fb_1_e_s_im,False Belief,-1.7127431631088257,-0.21105244755744934,-1.5016907155513763,1.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_9,9_tb_1_e_s_ex,True Belief,-0.0303195733577013,-3.65824556350708,3.6279259901493788,1.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_9,9_tb_1_e_s_im,True Belief,-0.00799786951392889,-4.637696266174316,4.6296983966603875,1.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_4,4_fb_1_s_e_ex,False Belief,-0.18918007612228394,-1.8141801357269287,1.6250000596046448,1.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_4,4_fb_1_s_e_im,False Belief,-3.0493485927581787,-0.049348656088113785,-2.999999936670065,1.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_4,4_tb_1_s_e_ex,True Belief,-0.003925239201635122,-6.378925323486328,6.375000084284693,1.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_4,4_tb_1_s_e_im,True Belief,-0.001292465953156352,-7.6262922286987305,7.624999762745574,1.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_4,4_fb_1_s_s_ex,False Belief,-0.0076672788709402084,-6.382667064666748,6.374999785795808,1.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_4,4_fb_1_s_s_im,False Belief,-0.9003686904907227,-0.5253686904907227,-0.375,1.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_4,4_tb_1_s_s_ex,True Belief,-0.010104691609740257,-4.885104656219482,4.874999964609742,1.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_4,4_tb_1_s_s_im,True Belief,-0.003406913485378027,-6.003407001495361,6.000000088009983,1.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_4,4_fb_1_e_e_ex,False Belief,-0.030063724145293236,-3.6550636291503906,3.6249999050050974,1.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_4,4_fb_1_e_e_im,False Belief,-0.5241293907165527,-0.8991293907165527,0.375,1.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_4,4_tb_1_e_e_ex,True Belief,-0.006973571144044399,-5.256973743438721,5.250000172294676,1.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_4,4_tb_1_e_e_im,True Belief,-0.0019998804200440645,-6.501999855041504,6.49999997462146,1.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_4,4_fb_1_e_s_ex,False Belief,-0.0019209994934499264,-8.439420700073242,8.437499700579792,1.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_4,4_fb_1_e_s_im,False Belief,-0.2022935152053833,-1.7022935152053833,1.5,1.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_4,4_tb_1_e_s_ex,True Belief,-0.0023749261163175106,-6.37737512588501,6.375000199768692,1.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_4,4_tb_1_e_s_im,True Belief,-0.0017602439038455486,-7.001760005950928,6.999999762047082,1.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_10,10_fb_1_s_e_ex,False Belief,-4.417510986328125,-3.9090664386749268,-0.5084445476531982,2.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_10,10_fb_1_s_e_im,False Belief,-1.1471673250198364,-0.3934440016746521,-0.7537233233451843,2.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_10,10_tb_1_s_e_ex,True Belief,-0.0001433984871255234,-14.013019561767578,14.012876163280453,2.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_10,10_tb_1_s_e_im,True Belief,-0.00015567521040793508,-16.19489288330078,16.194737208090373,2.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_10,10_fb_1_s_s_ex,False Belief,-3.202455997467041,-3.6945385932922363,0.4920825958251953,2.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_10,10_fb_1_s_s_im,False Belief,-1.1711822748184204,-0.4158201813697815,-0.7553620934486389,2.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_10,10_tb_1_s_s_ex,True Belief,-0.00025459862081333995,-10.949180603027344,10.94892600440653,2.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_10,10_tb_1_s_s_im,True Belief,-0.00024971229140646756,-13.81971549987793,13.819465787586523,2.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_10,10_fb_1_e_e_ex,False Belief,-4.283279895782471,-5.520276069641113,1.2369961738586426,2.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_10,10_fb_1_e_e_im,False Belief,-1.2393027544021606,-0.3565467894077301,-0.8827559649944305,2.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_10,10_tb_1_e_e_ex,True Belief,-0.00019834458362311125,-13.574766159057617,13.574567814473994,2.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_10,10_tb_1_e_e_im,True Belief,-0.00013493580627255142,-15.75809097290039,15.757956037094118,2.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_10,10_fb_1_e_s_ex,False Belief,-4.770801067352295,-6.261708736419678,1.4909076690673828,2.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_10,10_fb_1_e_s_im,False Belief,-1.1062504053115845,-0.47831279039382935,-0.6279376149177551,2.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_10,10_tb_1_e_s_ex,True Belief,-0.00030250742565840483,-10.136926651000977,10.136624143575318,2.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_10,10_tb_1_e_s_im,True Belief,-0.00018821375851985067,-13.443750381469727,13.443562167711207,2.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_12,12_fb_1_s_e_ex,False Belief,-0.0047724624164402485,-14.879772186279297,14.874999723862857,2.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_12,12_fb_1_s_e_im,False Belief,-7.190081596374512,-14.690081596374512,7.5,2.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_12,12_tb_1_s_e_ex,True Belief,-0.0007805161876603961,-11.68828010559082,11.68749958940316,2.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_12,12_tb_1_s_e_im,True Belief,-0.0009494088008068502,-10.87594985961914,10.875000450818334,2.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_12,12_fb_1_s_s_ex,False Belief,-0.006164228543639183,-13.00616455078125,13.00000032223761,2.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_12,12_fb_1_s_s_im,False Belief,-5.133218288421631,-14.820718765258789,9.687500476837158,2.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_12,12_tb_1_s_s_ex,True Belief,-0.0010442048078402877,-7.751044273376465,7.750000068568625,2.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_12,12_tb_1_s_s_im,True Belief,-0.0014731755945831537,-8.188973426818848,8.187500251224265,2.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_12,12_fb_1_e_e_ex,False Belief,-0.0024072735104709864,-16.56490707397461,16.56249980046414,2.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_12,12_fb_1_e_e_im,False Belief,-7.878384590148926,-15.753384590148926,7.875,2.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_12,12_tb_1_e_e_ex,True Belief,-0.0011157722910866141,-12.188615798950195,12.187500026659109,2.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_12,12_tb_1_e_e_im,True Belief,-0.0011793570592999458,-10.938679695129395,10.937500338070095,2.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_12,12_fb_1_e_s_ex,False Belief,-0.003859572345390916,-10.566359519958496,10.562499947613105,2.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_12,12_fb_1_e_s_im,False Belief,-6.131622791290283,-12.006622314453125,5.874999523162842,2.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_12,12_tb_1_e_s_ex,True Belief,-0.0006509092636406422,-10.938151359558105,10.937500450294465,2.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_12,12_tb_1_e_s_im,True Belief,-0.0011076750233769417,-11.376107215881348,11.37499954085797,2.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_6,6_fb_1_s_e_ex,False Belief,-0.07528644800186157,-4.075286388397217,3.9999999403953552,2.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_6,6_fb_1_s_e_im,False Belief,-0.0017947532469406724,-7.501794815063477,7.500000061816536,2.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_6,6_tb_1_s_e_ex,True Belief,-0.013355790637433529,-8.38835620880127,8.375000418163836,2.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_6,6_tb_1_s_e_im,True Belief,-0.003935094457119703,-8.816434860229492,8.812499765772372,2.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_6,6_fb_1_s_s_ex,False Belief,-0.00869063101708889,-5.13369083404541,5.125000203028321,2.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_6,6_fb_1_s_s_im,False Belief,-0.036115385591983795,-3.4111154079437256,3.375000022351742,2.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_6,6_tb_1_s_s_ex,True Belief,-0.015932749956846237,-4.890932559967041,4.874999810010195,2.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_6,6_tb_1_s_s_im,True Belief,-0.006906209979206324,-6.381906032562256,6.3749998225830495,2.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_6,6_fb_1_e_e_ex,False Belief,-0.1114148274064064,-3.486414909362793,3.3750000819563866,2.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_6,6_fb_1_e_e_im,False Belief,-0.0021259819623082876,-7.252126216888428,7.2500002349261194,2.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_6,6_tb_1_e_e_ex,True Belief,-0.005897975992411375,-9.130897521972656,9.124999545980245,2.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_6,6_tb_1_e_e_im,True Belief,-0.0030462786089628935,-8.878046035766602,8.874999757157639,2.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_6,6_fb_1_e_s_ex,False Belief,-0.0612960085272789,-2.936295986175537,2.874999977648258,2.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_6,6_fb_1_e_s_im,False Belief,-0.11716772615909576,-2.2421677112579346,2.124999985098839,2.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_6,6_tb_1_e_s_ex,True Belief,-0.013418248854577541,-5.388418197631836,5.374999948777258,2.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_6,6_tb_1_e_s_im,True Belief,-0.008857602253556252,-6.883857727050781,6.875000124797225,2.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_11,11_fb_1_s_e_ex,False Belief,-0.0072226133197546005,-6.132222652435303,6.125000039115548,3.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_11,11_fb_1_s_e_im,False Belief,-0.014199061319231987,-6.951699256896973,6.937500195577741,3.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_11,11_tb_1_s_e_ex,True Belief,-0.007012162357568741,-10.444512367248535,10.437500204890966,3.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_11,11_tb_1_s_e_im,True Belief,-0.00430763466283679,-10.566807746887207,10.56250011222437,3.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_11,11_fb_1_s_s_ex,False Belief,-0.002403705846518278,-9.127403259277344,9.124999553430825,3.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_11,11_fb_1_s_s_im,False Belief,-0.03549867123365402,-5.72299861907959,5.687499947845936,3.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_11,11_tb_1_s_s_ex,True Belief,-0.010447690263390541,-6.6354475021362305,6.62499981187284,3.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_11,11_tb_1_s_s_im,True Belief,-0.005837772041559219,-8.068337440490723,8.062499668449163,3.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_11,11_fb_1_e_e_ex,False Belief,-0.019247079268097878,-5.269247055053711,5.249999975785613,3.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_11,11_fb_1_e_e_im,False Belief,-0.01770630292594433,-6.455206394195557,6.437500091269612,3.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_11,11_tb_1_e_e_ex,True Belief,-0.005494136828929186,-8.880494117736816,8.874999980907887,3.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_11,11_tb_1_e_e_im,True Belief,-0.006286607589572668,-8.44378662109375,8.437500013504177,3.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_11,11_fb_1_e_s_ex,False Belief,-0.006281276699155569,-9.256280899047852,9.249999622348696,3.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_11,11_fb_1_e_s_im,False Belief,-0.018272873014211655,-7.330772876739502,7.31250000372529,3.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_11,11_tb_1_e_s_ex,True Belief,-0.009216029196977615,-7.946715831756592,7.937499802559614,3.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_11,11_tb_1_e_s_im,True Belief,-0.009561222046613693,-8.759561538696289,8.750000316649675,3.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_1,1_fb_1_s_e_ex,False Belief,-0.02189779467880726,-7.084397792816162,7.062499998137355,3.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_1,1_fb_1_s_e_im,False Belief,-0.4864702820777893,-1.1114702224731445,0.6249999403953552,3.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_1,1_tb_1_s_e_ex,True Belief,-0.00015198028995655477,-10.125151634216309,10.124999653926352,3.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_1,1_tb_1_s_e_im,True Belief,-0.00027223696815781295,-10.375271797180176,10.374999560212018,3.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_1,1_fb_1_s_s_ex,False Belief,-0.045530740171670914,-5.295530796051025,5.2500000558793545,3.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_1,1_fb_1_s_s_im,False Belief,-2.5986595153808594,-0.09865956753492355,-2.499999947845936,3.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_1,1_tb_1_s_s_ex,True Belief,-0.0004761277523357421,-9.250475883483887,9.249999755731551,3.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_1,1_tb_1_s_s_im,True Belief,-0.000390215078368783,-10.00039005279541,9.999999837717041,3.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_1,1_fb_1_e_e_ex,False Belief,-0.07533785700798035,-6.512837886810303,6.437500029802322,3.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_1,1_fb_1_e_e_im,False Belief,-0.25391992926597595,-1.7539199590682983,1.5000000298023224,3.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_1,1_tb_1_e_e_ex,True Belief,-0.00042083943844772875,-8.875420570373535,8.874999730935087,3.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_1,1_tb_1_e_e_im,True Belief,-0.0005256939912214875,-9.50052547454834,9.499999780557118,3.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_1,1_fb_1_e_s_ex,False Belief,-0.08378323912620544,-3.9587831497192383,3.874999910593033,3.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_1,1_fb_1_e_s_im,False Belief,-1.6277947425842285,-0.25279468297958374,-1.3750000596046448,3.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_1,1_tb_1_e_s_ex,True Belief,-0.0003743662964552641,-9.687874794006348,9.687500427709892,3.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_1,1_tb_1_e_s_im,True Belief,-0.0008099374244920909,-9.188309669494629,9.187499732070137,3.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_2,2_fb_1_s_e_ex,False Belief,-0.004652905277907848,-6.379428863525391,6.374775958247483,3.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_2,2_fb_1_s_e_im,False Belief,-0.0018302148673683405,-11.001688003540039,10.99985778867267,3.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_2,2_tb_1_s_e_ex,True Belief,-0.0006191005813889205,-10.75107192993164,10.750452829350252,3.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_2,2_tb_1_s_e_im,True Belief,-0.0014222278259694576,-9.877431869506836,9.876009641680866,3.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_2,2_fb_1_s_s_ex,False Belief,-0.000725229678209871,-9.063027381896973,9.062302152218763,3.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_2,2_fb_1_s_s_im,False Belief,-0.0005280112964101136,-10.312891006469727,10.312362995173316,3.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_2,2_tb_1_s_s_ex,True Belief,-0.000614216027315706,-9.188311576843262,9.187697360815946,3.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_2,2_tb_1_s_s_im,True Belief,-0.0019063648069277406,-8.314684867858887,8.312778503051959,3.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_2,2_fb_1_e_e_ex,False Belief,-0.0014984027948230505,-7.751209259033203,7.74971085623838,3.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_2,2_fb_1_e_e_im,False Belief,-0.000702809018548578,-10.37556266784668,10.374859858828131,3.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_2,2_tb_1_e_e_ex,True Belief,-0.0006275591440498829,-10.063456535339355,10.062828976195306,3.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_2,2_tb_1_e_e_im,True Belief,-0.0017100248951464891,-7.6273674964904785,7.625657471595332,3.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_2,2_fb_1_e_s_ex,False Belief,-0.00046697526704519987,-9.375412940979004,9.374945965711959,3.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_2,2_fb_1_e_s_im,False Belief,-0.00046388234477490187,-9.437894821166992,9.437430938822217,3.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_2,2_tb_1_e_s_ex,True Belief,-0.000770510348957032,-8.376092910766602,8.375322400417645,3.0,FB1,2,EleutherAI/pythia-6.9b
+FB1,fb1_2,2_tb_1_e_s_im,True Belief,-0.0013528252020478249,-8.501517295837402,8.500164470635355,3.0,FB1,2,EleutherAI/pythia-6.9b
