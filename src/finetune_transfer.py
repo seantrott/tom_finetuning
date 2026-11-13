@@ -163,7 +163,7 @@ def main():
     ap.add_argument("--model", required=True)
     ap.add_argument("--data_dir", default="data/raw")
     ap.add_argument("--out", required=True)
-    ap.add_argument("--tasks", nargs="+", default=["FB1", "FB2", "IR", "RM", "FB_attn"],
+    ap.add_argument("--tasks", nargs="+", default=["FB1", "FB2", "IR", "FB_attn"],
                     help="Tasks used as both sources and targets.")
     ap.add_argument("--custom", nargs="*", default=[],
                     help="Extra tasks as NAME=path.csv (e.g. a matched control).")

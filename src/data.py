@@ -72,63 +72,42 @@ def load_ir(data_dir):
     return _yes_no(df, "IR", prompt)
 
 
-def _load_rm_all(data_dir):
-    stories = pd.read_csv(os.path.join(data_dir, "stories.csv"))
-    questions = pd.read_csv(os.path.join(data_dir, "questions.csv"))
-    # Pair each question with the story told in the same format
-    # (explicit narrative vs. implicit dialogue).
-    df = pd.merge(
-        stories, questions,
-        left_on=["story_id", "story_format"],
-        right_on=["story_id", "question_format"],
-    )
-    is_a = df["correct_option"].str.strip() == "a"
-    return pd.DataFrame({
-        "task": None,
-        "group": "rm_" + df["story_id"].astype(str),
-        "item_id": ("rm_" + df["story_id"].astype(str) + "_" + df["story_format"]
-                    + "_" + df["question_type"] + "_" + df["question_level"].astype(str)),
-        "condition": df["question_type"] + "_L" + df["question_level"].astype(str),
-        "prompt": df["story_text"].str.strip() + "\n",
-        "correct": df["option_a"].where(is_a, df["option_b"]),
-        "incorrect": df["option_b"].where(is_a, df["option_a"]),
-        "question_type": df["question_type"],
-    })
-
-
-def load_rm(data_dir):
-    """Recursive mindreading, mental-state questions only (56 rows, 4 stories)."""
-    df = _load_rm_all(data_dir)
-    df = df[df["question_type"] == "mental"].copy()
-    df["task"] = "RM"
-    return df[COLUMNS].reset_index(drop=True)
-
-
-def load_rm_control(data_dir):
-    """RM's own non-mental control questions (56 rows). Same stories, same format."""
-    df = _load_rm_all(data_dir)
-    df = df[df["question_type"] == "control"].copy()
-    df["task"] = "RM_control"
-    df["group"] = df["group"] + "_ctrl"
-    return df[COLUMNS].reset_index(drop=True)
 
 
 def load_fb_attn(data_dir):
-    """FB attention checks (48 rows = 12 items x 4 questions), the control task.
+    """FB attention checks.
 
-    Each question's distractor is the answer to its paired question (1<->2, 3<->4),
-    as in the original attention-check script.
+    As in the original attention-check script, the four questions for each
+    story are asked about every passage variant of that story in fb.csv
+    (False Belief and True Belief, all orders). The explicit and implicit
+    variants share the same passage, so duplicates are dropped:
+    12 stories x 8 passages x 4 questions = 384 rows.
+
+    Each question's distractor is the answer to its paired question (1<->2, 3<->4).
+    item_id encodes the passage variant, e.g. fbattn_1_fb_1_s_e_q1, so the
+    passage's belief condition ("_fb_" or "_tb_") can be recovered later.
     """
-    df = pd.read_csv(os.path.join(data_dir, "fb_attn_check.csv"), encoding="utf-8-sig")
+    qs = pd.read_csv(os.path.join(data_dir, "fb_attn_check.csv"), encoding="utf-8-sig")
+    stims = pd.read_csv(os.path.join(data_dir, "fb.csv"), encoding="utf-8-sig")
+    # Variant id without the _ex/_im suffix, e.g. "1_fb_1_s_e"; keep one
+    # passage per variant (the explicit version where the two differ slightly).
+    stims["variant"] = stims["item_id"].str.replace(r"_(ex|im)$", "", regex=True)
+    stims = (stims.sort_values("item_id")
+                  .drop_duplicates(subset=["item", "variant"])
+                  .copy())
+
+    q_cols = [c for c in qs.columns if c.startswith("attn_check_")]
+    df = stims[["item", "variant", "passage_hr"]].merge(qs[["item"] + q_cols], on="item")
+
     pairs = {1: 2, 2: 1, 3: 4, 4: 3}
     rows = []
     for _, r in df.iterrows():
-        passage = r["passage"].replace(" [MASK].", "").strip()
+        passage = str(r["passage_hr"]).strip()
         for q, other in pairs.items():
             rows.append({
                 "task": "FB_attn",
                 "group": f"fbattn_{r['item']}",
-                "item_id": f"fbattn_{r['item']}_q{q}",
+                "item_id": f"fbattn_{r['variant']}_q{q}",
                 "condition": f"q{q}",
                 "prompt": passage + " " + str(r[f"attn_check_{q}_q"]).strip(),
                 "correct": " " + str(r[f"attn_check_{q}_a"]).strip(),
@@ -149,8 +128,6 @@ LOADERS = {
     "FB1": load_fb1,
     "FB2": load_fb2,
     "IR": load_ir,
-    "RM": load_rm,
-    "RM_control": load_rm_control,
     "FB_attn": load_fb_attn,
 }
 
